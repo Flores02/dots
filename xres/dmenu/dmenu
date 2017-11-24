@@ -1,0 +1,5 @@
+dmenu.selforeground:      fg
+dmenu.background:         fg
+dmenu.selbackground:      bg
+dmenu.foreground:         bg
+dmenu.font:               fnt3:size=13
