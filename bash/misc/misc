@@ -1,11 +1,20 @@
 shopt -s histappend
 shopt -s checkwinsize
-set -o vi
+shopt -s checkhash
+# shopt -s globstar
+# shopt -s hostcomplete
+shopt -s nocasematch
+shopt -s direxpand
+
+# turn off control flow ^Q ^S keys
+stty -ixon
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
+# https://github.com/seebi/dircolors-solarized
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" \
+  test -r ~/.dir_colors/soldark \
+    && eval "$(dircolors -b ~/.dir_colors/soldark)" \
     || eval "$(dircolors -b)"
 fi
 
@@ -32,5 +41,5 @@ if [ -x /usr/lib/command-not-found ]; then
   }
 fi
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-. /home/bud/.rvm/scripts/rvm
+
+# syntax:bash

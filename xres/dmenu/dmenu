@@ -1,5 +1,8 @@
-dmenu.selforeground:      fg
-dmenu.background:         fg
-dmenu.selbackground:      bg
-dmenu.foreground:         bg
-dmenu.font:               fnt3:size=13
+dmenu.selforeground:      bg
+dmenu.background:         bg
+dmenu.selbackground:      fg
+dmenu.foreground:         fg
+dmenu.font:               terminalfontface1
+
+
+

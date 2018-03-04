@@ -1,0 +1,66 @@
+* {
+    budstyle-bg1:        #000000;
+    budstyle-bg2:        #222222;
+    budstyle-fg1:        #AAAAAA;
+    budstyle-fg2:        #FFFFFF;
+    budstyle-accent:     #0000FF;
+    budstyle-redish:     #FF0000;
+    budstyle-grnish:     #00FF00;
+    budstyle-font:       "Inconsolata 12";
+
+    font:                @budstyle-font;
+    background-color:    @budstyle-fg1;
+    border-color:        @budstyle-fg1;
+    text-color:          @budstyle-bg1;
+
+    // # budstyle.accent:   blu
+    // # budstyle.bg1:      bg
+    // # budstyle.bg2:      blk
+    // # budstyle.fg1:      fg
+    // # budstyle.fg2:      wht2
+    // # budstyle.redish:  red
+    // # budstyle.font1:   fnt3
+    // # budstyle.font2:   fnt2
+    // # budstyle.fontsz1: fsz1
+    // # budstyle.fontsz2: fsz2
+
+}
+
+#window {
+    background-color: @budstyle-fg1;
+    anchor:     north;
+    location:   north;
+    width:      100%;
+    padding:    2px;
+    children:   [ horibox ];
+}
+
+#horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+
+#listview {
+    layout:     horizontal;
+    spacing:    5px;
+    lines:      10;
+}
+
+#entry {
+    expand:     false;
+    width:      14em;
+}
+
+#element {
+    padding: 0px 2px;
+}
+#element selected {
+    text-color: #002b36;
+    background-color: #268bd2;
+}
+#prompt {
+    text-color: #268bd2;
+}
+
+
+// syntax:ssDslash

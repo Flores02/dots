@@ -14,10 +14,10 @@
 # 
 # examples
 # --------
-# `cd /usr/share`  
+# `$ cd /usr/share`  
 # 009 /u/s >
 # 
-# `cd ~/.config`  
+# `$ cd ~/.config`  
 # 012 ~/c >
 #
 # screenshot
@@ -55,8 +55,9 @@ prompt_generator() {
   local BC="\[\033[1;36m\]"
   local BW="\[\033[1;37m\]"
 
-  # reset
-  local RESET="\[\033[0;37m\]"
+  # FG
+  # local FG="\[\033[0;37m\]"
+  local FG="\[$(tput sgr0)\]"
 
   # get time
   local milli=$(($(date +%s%N | cut -b1-13) - $timer))
@@ -85,7 +86,7 @@ prompt_generator() {
   local newpth=""
   local d=
   apa=( ${pth//\//' '} )
-  
+
   for d in ${apa[@]}; do
     [[ $d = '~' ]] && newpth='~' && continue
     # if first char is '.', grab the second
@@ -93,7 +94,7 @@ prompt_generator() {
       && newpth+="/${d:1:1}" || newpth+="/${d:0:1}"
   done
 
-  PS1="${psc}${timmy} ${W}${newpth} ${B}>${RESET} "
+  PS1="${psc}${timmy} ${FG}${newpth} ${B}>${FG} " 
   unset timer
 }
 
@@ -101,3 +102,4 @@ prompt_generator() {
 trap 'timer_start' DEBUG
 PROMPT_COMMAND=prompt_generator
 
+# syntax:bash
