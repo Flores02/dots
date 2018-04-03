@@ -1,0 +1,1 @@
+This `dunst` theme displays a notification that only contains the summary (*%s*) in one line. It has the same height as my [polybar](https://budrich.github.io/dots/polybar/budbar) and it overlies the center of the bar when visible.
