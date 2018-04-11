@@ -6,7 +6,7 @@ xset -b b off
 xrandr --output LVDS1 --auto --left-of HDMI-1 --primary &
 
 hsetroot -tile /home/bud/etc/bitmap-walls/patterns-png/line_diag3_2.png \
-  -tint "$(xrdb -query | awk '/\*\.background/ {print $2}')"
+  -tint "$(xrdb -query | awk '/colors.act1/ {print $2}')"
 setxkbmap -layout seba -option lv3:ralt_switch -option 'caps:ctrl_modifier'
 
 # xmodmap ~/.Xmodmap
@@ -37,7 +37,7 @@ xbanish &
 export QT_QPA_PLATFORMTHEME=qt5ct
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
-pbr
+flashfocus -s -t 175 -o 0.9 &
 . $HOME/.i3env
 exec i3
 

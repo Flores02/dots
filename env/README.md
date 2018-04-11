@@ -1,7 +1,8 @@
-I like to have the short lowercase names on my folders for easier navigation through from the terminal and it also looks cool.
+My environment dotfiles is where i setup my, well, environment. [i3env](https://budrich.github.io/dots/env/i3env) are environment variables that i have invented myself and most of them are settings for various **i3ass** scripts. I could have put them in `.bashrc`, but I source them from [~/.xinitrc](https://budrich.github.io/dots/env/xinitrc) since all of them are specific to a graphical environment.  
 
-[![](https://budrich.github.io/img/awd/homefolderspacefm.png)](https://budrich.github.io/img/org/homefolderspacefm.png)
+Similarly [export](https://budrich.github.io/dots/env/export) are environment variables that are sourced in [~/.bashrc](https://budrich.github.io/dots/shell/bashrc).   
 
-I have also written a guide, and recorded a video on how to achieve the [Perfect Folder](https://budrich.github.io/blog/perfect_folders) structure. 
+I try to keep most of my xsession related always start executions in [~/.xinitrc](https://budrich.github.io/dots/env/xinitrc), such as `compton`, `urxvtd` and loading the `seba` keyboard layout. 
 
-These are the environment variables that are specific to my i3 session. I have found that sourcing it in [.xinitrc](https://budrich.github.io/dots/xinit) is the best, since some of the settings are dependent on xorg running, so it’s not perfect to export the variables in [.bashrc](https://budrich.github.io/dots/bash/bashrc).
+I also put the user-dirs dot file here because *I'm just a soul whose intentions are good
+Oh Lord, please don't let me be misunderstood*.
