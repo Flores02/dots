@@ -64,3 +64,4 @@ alias nwl='sudo netctl restart lexu'
 alias nwd='sudo netctl start donk'
 
 # syntax:bash
+alias seba='setxkbmap -layout seba -option lv3:ralt_switch -option caps:ctrl_modifier'
