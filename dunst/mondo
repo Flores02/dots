@@ -1,15 +1,15 @@
 [urgency_low]
-background = "#73675F"
-foreground = "#ebdbb2"
+background = "#bdae93"
+foreground = "#3c3836"
 timeout = 4
 
 [urgency_normal]
-background = "#73675F"
-foreground = "#ebdbb2"
+background = "#bdae93"
+foreground = "#3c3836"
 timeout = 5
 
 [urgency_critical]
-background = "#9d0006"
+background = "#fb4934"
 foreground = "#fbf1c7"
 timeout = 10
 
@@ -22,4 +22,4 @@ context     = ctrl+shift+space
 
 [global]
 font = FixedFixedsys 12
-frame_color = "#ebdbb2"
+frame_color = "#3c3836"
