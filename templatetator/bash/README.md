@@ -1,0 +1,1 @@
+This is the [templatetator](https://budrich.github.io/scripts/templatetator) template i use to create new bash scripts. In an [episode of lets linux](https://budrich.github.io/letslinux/automatic_script_creation) i create something similar but less complex.
