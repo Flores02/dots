@@ -1,4 +1,24 @@
-prompt
+These are the dotfiles that configure my shell, currently I'm using `bash`.  
+
+These files are sourced into `~/.bashrc`:
+
+[shell/prompt](https://budrich.github.io/dots/shell/prompt) | prompt style and command
+:---|:---
+[shell/func](https://budrich.github.io/dots/shell/func) | small homebrew and borrowed functions
+[shell/alias](https://budrich.github.io/dots/shell/alias) | alias file
+[shell/path](https://budrich.github.io/dots/shell/path) | directories in `$PATH`
+[shell/misc](https://budrich.github.io/dots/shell/misc) | other options and settings
+[env/export](https://budrich.github.io/dots/env/export) | Environment variables
+
+
+I also keep some settings in [shell/inputrc](https://budrich.github.io/dots/shell/inputrc), mostly keybindings and VI-mode options.  
+
+And a few shell/terminal settings is defined in [xfiles/urxvt](https://budrich.github.io/dots/xfiles/urxvt)  
+
+---------------
+
+
+# prompt
 
 My prompt shows the runtime of the last command and a compact `CWD` (current work directory). 
 
@@ -6,7 +26,7 @@ My prompt shows the runtime of the last command and a compact `CWD` (current wor
 
 -----
 
-inputrc
+# inputrc
 
 These settings modify the behavior of manual input to the terminal. I use VI-mode and by setting:
 
@@ -21,22 +41,17 @@ set vi-cmd-mode-string :
 
 -----
 
+# bashrc
+
 The `read -rsn1 -t2 input` waits two seconds for a key-press before it starts **X** and **i3**. If I press `1` I stay in the wonderful tty environment. If I press `2` or wait 2 seconds, **i3** starts. o
 
 I have found this method much more convenient then a normal DM, where you have to change DE from some, very easily forgotten, menu. Often resulting in me logging in to the wrong DE...
 
-I also source all files in `~/.bash/` . I just upgraded Mint and it was kind enough to overwrite my `.bashrc`, that made me decide to have it as minimal as possible so I can easily restore it if something similar happens.
+# func/alias
 
-I don't care so much about GNU/Linux-distros and I have not had any problems with Mint till this happened. But it is so poor design to overwrite `.bashrc` that I'm seriously thinking on hopping just because of that.\* 
+I add aliases with the function `adda` that is defined in [shell/func](https://budrich.github.io/dots/shell/func)  
 
-But maybe other distros behave similar...
-
-\* *edit: i now run arch linux, and before that PeppermintOS*
-
-
-My aliases. I add aliases with the function `adda` that is defined in [bash/func](https://budrich.github.io/dots/bash/func). Here you can find the famous `lolban` alias ;)
-
-This is the power of the bash shell, you can write small functions to make using the shell easier. 
+### function descriptions:
 
 **lb**  
 I found this one on the [LinuxBBQ forums](https://linuxbbq.org/bbs/viewtopic.php?f=4&t=2076) it adds the last command to a logfile. Very handy.
