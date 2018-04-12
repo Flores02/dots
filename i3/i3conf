@@ -22,8 +22,8 @@
 # >>> panic <<<
 
   $win+Control+r        $exe i3-msg reload  ; $exe polybar-msg cmd restart
-  $win+$alt+r           $exe i3-msg restart ; $exe polybar-msg cmd restart
-  $win+Escape           $exe i3off -x
+  $win+$alt+r           $exe i3restart
+  $win+Control+Escape   $exe i3off -x
   $win+x                $exe budlock -l misfitta.png
 
 # >>> terminal spawning <<<
@@ -194,7 +194,7 @@
 
 # >>> appearance <<<
 
-  for_window [class="^.*"] border normal 1
+  for_window [class="^.*"] border normal 1 
 
   # widow Colors           border  bg     text    indic
   client.focused           $act    $act   $whtl    $act
@@ -219,9 +219,10 @@
   $exe i3fyra -l $layout
 
   # layout manipulation bindings:
-  $win+p        $exe i3fyra -l $layout
-  $win+Shift+p  $exe i3fyra -l 'AB=800 BD=450'
-  $win+g        layout toggle tabbed splith splitv
+  $win+p          $exe i3fyra -l $layout
+  $win+Shift+p    $exe i3fyra -l 'AB=800 BD=450'
+  $win+Control+p  $exe i3fyra -l 'AB=-550 BD=350'
+  $win+g          layout toggle tabbed splith splitv
 
 # >>> window rules <<<
   
@@ -285,6 +286,7 @@
 # >>> automatic execution <<<
 
   $exe pbr &
+  # exec_always --no-startup-id flashfocus -s -t 175 -o 0.9
   
 # >>> modes <<<
 

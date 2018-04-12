@@ -50,11 +50,11 @@ opacity-rule = [
   # I only let 5 programs to ever be transperant, and only when they
   # are tiled. Notice the extra rule on qbittorrent, this is necessary 
   # for some Qt applications.
-  # "0:_NET_WM_STATE@[0]:32a = '_NET_WM_STATE_HIDDEN'",
-  # "0:_NET_WM_STATE@[1]:32a = '_NET_WM_STATE_HIDDEN'",
-  # "0:_NET_WM_STATE@[2]:32a = '_NET_WM_STATE_HIDDEN'",
-  # "0:_NET_WM_STATE@[3]:32a = '_NET_WM_STATE_HIDDEN'",
-  # "0:_NET_WM_STATE@[4]:32a = '_NET_WM_STATE_HIDDEN'",
+  "0:_NET_WM_STATE@[0]:32a = '_NET_WM_STATE_HIDDEN'",
+  "0:_NET_WM_STATE@[1]:32a = '_NET_WM_STATE_HIDDEN'",
+  "0:_NET_WM_STATE@[2]:32a = '_NET_WM_STATE_HIDDEN'",
+  "0:_NET_WM_STATE@[3]:32a = '_NET_WM_STATE_HIDDEN'",
+  "0:_NET_WM_STATE@[4]:32a = '_NET_WM_STATE_HIDDEN'",
   # "90:class_g = 'Sublime_text' && !_NET_WM_STATE@:32a && !I3_FLOATING_WINDOW@:c",
   # "90:class_g = 'URxvt' && !_NET_WM_STATE@:32a && !I3_FLOATING_WINDOW@:c",
   # "90:class_g = 'qBittorrent' && !I3_FLOATING_WINDOW@:c && !_NET_WM_STATE@[2]:32a",
@@ -74,11 +74,11 @@ use-ewmh-active-win  = true;          # Use EWMH _NET_WM_ACTIVE_WINDOW to determ
                                       # instead of using FocusIn/Out events. Usually more reliable but
                                       # depends on a EWMH-compliant WM.
 detect-rounded-corners = false;       # Detect rounded corners and treat them as rectangular when --shadow-ignore- shaped is on.
-detect-client-opacity  = false;       # Detect _NET_WM_OPACITY on client windows, useful for window
+detect-client-opacity  = true;        # Detect _NET_WM_OPACITY on client windows, useful for window
                                       # managers not passing _NET_WM_OPACITY of client windows to frame
                                       # windows.
 refresh-rate = 0;                     # For --sw-opti: Specify refresh rate of the screen. 0 for auto.
-vsync = "opengl-swc";                 # "none", "drm", "opengl", "opengl-oml", "opengl-swc", "opengl-mswc"
+vsync = "opengl";                     # "none", "drm", "opengl", "opengl-oml", "opengl-swc", "opengl-mswc"
                                       # See man page for more details.
 dbe = false;                          # Enable DBE painting mode. Rarely needed.
 paint-on-overlay = true;              # Painting on X Composite overlay window. Recommended.
@@ -94,11 +94,11 @@ detect-client-leader = false;         # Use WM_CLIENT_LEADER to group windows.
 invert-color-include = [ ];           # Conditions for windows to be painted with inverted color.
 
 # GLX backend                         # GLX backend fine-tune options. See man page for more info.
-glx-no-stencil = true;                # Recommended.
-glx-swap-method = 3;                  # See man page.
-glx-copy-from-front = false;          # Useful with --glx-swap-method,
-glx-use-copysubbuffermesa = true;     # Recommended if it works. Breaks VSync.
-glx-no-rebind-pixmap = true;          # Recommended if it works.
+# glx-no-stencil = true;                # Recommended.
+# glx-swap-method = 3;                  # See man page.
+# glx-copy-from-front = false;          # Useful with --glx-swap-method,
+# glx-use-copysubbuffermesa = true;     # Recommended if it works. Breaks VSync.
+# glx-no-rebind-pixmap = true;          # Recommended if it works.
 
 wintypes:
 {

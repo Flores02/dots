@@ -34,7 +34,7 @@ mondo.colors.act2:        base00
 mondo.colors.act3:        base0
 
 mondo.colors.ina1:        base02
-mondo.colors.ina2:        fg
+mondo.colors.ina2:        bg
 mondo.colors.ina3:        base0
 
 mondo.colors.sel1:     base3

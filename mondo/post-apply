@@ -20,4 +20,4 @@ gtkrc-reload
 polybar-msg cmd restart
 
 # restart i3
-i3restart
+# i3restart

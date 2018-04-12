@@ -4,12 +4,12 @@
 		"id": "origin",
 		"settings":
 		{
-"accent_color": "#076678",
+"accent_color": "#4c83ad",
       "font_face": "FixedFixedsys",
       "font_size": 16,
 
       "status_bar_background_color": "$accent_color",
-"status_label_foreground_color": "#fbf1c7",
+"status_label_foreground_color": "#eee8d5",
       "status_bar_padding": [4, 3, 4, 3],
 
       "tab_height": 20,
