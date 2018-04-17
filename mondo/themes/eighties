@@ -1,14 +1,18 @@
+!! based on Tomorrow - eighties
+!! by Chris Kempson
+!! http://chriskempson.com
+
 #define fg #a09f93
 #define bg #2d2d2d
 
-#define base00 #d3d0c8
+#define base00 #747369
 #define base01 #e8e6df
 #define base02 #a09f93
 #define base03 #f2f0ec
 
 #define base0  #515151
-! #define base1  #393939
-#define base1 #3f3f3f
+#define base1  #303030
+! #define base1 #3f3f3f
 #define base2  #2d2d2d
 #define base3  #747369
 
@@ -23,9 +27,9 @@
 #define cyn #445e67
 
 mondo.colors.fg1:         fg
-mondo.colors.fg2:         base3
+mondo.colors.fg2:         base00
 mondo.colors.bg1:         bg
-mondo.colors.bg2:         base0
+mondo.colors.bg2:         base1
 
 mondo.colors.dark1:       base1
 mondo.colors.light1:      base01
