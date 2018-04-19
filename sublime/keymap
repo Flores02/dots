@@ -200,8 +200,8 @@
   // switched ctrl+page[up/down] with ctrl+[shift+]tab
   { "keys": ["ctrl+tab"], "command": "next_view" },
   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
-  { "keys": ["ctrl+pagedown"], "command": "next_view_in_stack" },
-  { "keys": ["ctrl+pageup"], "command": "prev_view_in_stack" },
+  { "keys": ["ctrl+pagedown"], "command": "next_view" },
+  { "keys": ["ctrl+pageup"], "command": "prev_view" },
  
   // >> Vintage bonus:
   // breaks expand_selection_to_indentation -> ctrl+shift+i
