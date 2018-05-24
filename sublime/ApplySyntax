@@ -234,6 +234,10 @@
       "rules": [{"contains": "syntax:ssDslash"} ]
     },
     {
+      "syntax": "SimpleSyntax/ssDquote",
+      "rules": [{"contains": "syntax:ssDquote"} ]
+    },
+    {
       "syntax": "ShellScript/Bash",
       "extensions": ["bash"],
       "rules": [

@@ -1,5 +1,12 @@
 ; polybar config, curated by budRich since 2016
 
+; >> mediatitle
+[module/mediatitle]
+type = custom/ipc
+hook-0 = cat ~/polymediaoutput
+hook-1 = echo one
+initial = 1
+
 ; >> pbtitle
 [module/pbtitle]
 type = custom/ipc
@@ -11,6 +18,7 @@ hook-4 = pbtitle color
 hook-5 = pbtitle taskbar
 initial = 3
 
+
 ; >> pbws
 [module/pbws]
 type = custom/ipc
@@ -19,6 +27,7 @@ hook-1 = pbws switch
 hook-2 = pbws next
 hook-3 = pbws prev
 initial = 1
+
 
 ; >> pbrectime
 [module/pbrectime]
@@ -32,17 +41,12 @@ hook-2 = echo ""
 type = custom/ipc
 hook-0 = pbmedia start
 hook-1 = pbmedia "update"
-hook-2 = pbmedia "resume"
-hook-3 = pbmedia "mpvclose"
 initial = 1 
 
-; >> pbmic
-[module/pbmic]
+; >> pbcmus
+[module/pbcmus]
 type = custom/ipc
-hook-0 = pbmic
-hook-1 = pbmic "mute"
-hook-2 = pbmic "up"
-hook-3 = pbmic "down"
+hook-0 = cat /tmp/cmus-status
 initial = 1
 
 ; >> audio output
@@ -55,14 +59,6 @@ initial = 1
 [module/pbaudioin]
 type = custom/ipc
 hook-0 = pbaudioin 
-initial = 1
-
-; >> pbdropbox
-[module/pbdropbox]
-type = custom/ipc
-hook-0 = pbdropbox "stop"
-hook-1 = pbdropbox "start"
-hook-2 = pbdropbox "error"
 initial = 1
 
 ; >> mpd
@@ -84,18 +80,12 @@ format-playing-foreground = ${colors.foreground}
 
 label-time = | %elapsed% / %total%
 label-offline = 
-; label-offline = turn on some music, dude
 
 icon-repeat = 
 icon-random = 
 icon-random-margin-right = 0
 toggle-on-foreground = ${colors.accent}
 
-
-; >> xwindow
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:50:...%
 
 ; >> wlan
 [module/wlan]
@@ -104,7 +94,6 @@ interface = wlo1
 interval = 3.0
 
 format-connected =  <label-connected>
-; format-connected =  <label-connected>
 label-connected = %downspeed:2%
 
 format-disconnected =
@@ -113,15 +102,12 @@ format-disconnected =
 [module/cpu]
 type = internal/cpu
 interval = 2
-; format-prefix = " = %{A1:i3term htop:}C
 label = %{A1:i3term htop:} %percentage%%{A}
 
 ; >> memory
 [module/memory]
 type = internal/memory
 interval = 2
-; format-prefix = " "
-; label = %{A1:i3term htop:}R %percentage_used%%{A}
 label = %{A1:i3term htop:} %percentage_used%%{A}
 
 ; >> battery
@@ -158,22 +144,9 @@ click-left = exec budlock -l
 type = internal/xbacklight
 
 format = <label>
-; label = S %percentage%
 label =  %percentage%
 label-foreground = ${colors.foreground}
  
-
-; >> pbvol
-[module/pbvol]
-type = custom/script
-tail = true
-label = %output%
-exec = ~/src/polybar/pbvol --listen
-click-right = exec i3run -i pavucontrol -e pavucontrol
-click-left = ~/src/polybar/pbvol --togmute
-scroll-up = ~/src/polybar/pbvol --up
-scroll-down = ~/src/polybar/pbvol --down
-
 ; >> pbweather
 [module/pbweather]
 type = custom/script
@@ -203,10 +176,8 @@ time = %H:%M
 time-alt = %m|%d
 
 format-prefix =
-;format-underline = #0a6cf5
 
 label = %time%
-
 ; label-margin-left = 1
 
 [settings]
@@ -214,9 +185,7 @@ screenchange-reload = true
 
 ; >> colors
 [colors]
-
 background = ${xrdb:mondo.colors.act1:#222}
-; foreground = #EEEEEE
 foreground = ${xrdb:mondo.colors.act2:#222}
 accent = ${xrdb:mondo.colors.act3:#222}
 alert = ${xrdb:mondo.colors.redish:#222}
@@ -250,13 +219,8 @@ module-margin-right = 1
 font-0 = FixedFixedsys:style=Regular:size=12:antialias=false;2
 font-1 = FontAwesome5Free:style=Solid:pixelsize=10:antialias=false;3
 font-2 = FontAwesome5Brands:style=Solid:pixelsize=10:antialias=false;3
-;font-0 = xos4 Terminus:style=Bold:pixelsize=12:antialias=false;2
-;font-0 = Monaco:style=Regular:pixelsize=10;2
-;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-; font-1 = Font Awesome 5 Free Regular:size=9;2
 
-
-; tray-position = right
+tray-position = right
 tray-padding = 2
 
 ; this combo is important to overlay tabs.
@@ -267,13 +231,7 @@ enable-ipc = true
 
 ; >> modules
 modules-left = date pbws pbaudioout pbaudioin xbacklight battery memory cpu wlan
-; modules-left = date pbvol pbmic xbacklight battery memory cpu pbweather pbmail wlan
 modules-center = pbtitle
-modules-right = pbrectime pbmedia mpd
-; modules-right = pbrectime pbmedia
-
-
-;                      
-;        
+modules-right = pbrectime mediatitle
 
 ; syntax:ssSemi

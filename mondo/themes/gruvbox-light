@@ -1,3 +1,7 @@
+!! based on Gruvbox 
+!! by morhertz (Pavel Pertsev)
+!! https://github.com/morhetz/gruvbox
+
 #define fg #73675F
 #define bg #ebdbb2
 
@@ -29,7 +33,7 @@ mondo.colors.light1:      base00
 
 mondo.colors.act1:        blu
 mondo.colors.act2:        base00
-mondo.colors.act3:        bg
+mondo.colors.act3:        base0
 
 mondo.colors.ina1:        base01
 mondo.colors.ina2:        fg

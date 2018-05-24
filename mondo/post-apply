@@ -16,8 +16,10 @@ kill -1 $(pidof urxvtd)
 # reload gtk
 gtkrc-reload
 
-# reload polybar
-polybar-msg cmd restart
-
 # restart i3
-# i3restart
+i3-msg reload
+
+# reload polybar
+echo cmd:restart > /tmp/polybar_mqueue.*
+# pbr
+# polybar-msg cmd restart

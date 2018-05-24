@@ -1,3 +1,7 @@
+!! based on Tomorrow
+!! by Chris Kempson
+!! http://chriskempson.com
+
 #define fg #4d4d4c
 #define bg #ffffff
 
@@ -55,3 +59,4 @@ mondo.colors.sel2:     base03
 #define guifontface2      sans
 #define guifontsize2      18
 
+!! syntax:ssExcla

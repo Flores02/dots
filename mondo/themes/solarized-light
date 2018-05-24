@@ -1,3 +1,7 @@
+!! Based on solarized
+!! by Ethan Soothover:  
+!! http://ethanschoonover.com/solarized/
+
 #define fg #586e75
 #define bg #eee8d5
 
@@ -55,3 +59,4 @@ mondo.colors.sel2:     base01
 #define guifontface2      sans
 #define guifontsize2      18
 
+! syntax:ssExcla

@@ -1,7 +1,10 @@
 {
-  "font_options": ["no_bold", "no_italic", "subpixel_antialias"],
+  "font_options": ["subpixel_antialias"],
+  // "font_options": ["no_bold", "no_italic", "subpixel_antialias"],
   // Using a ruler rules.
   "rulers": [50],
+
+  "update_check": false,
 
   // zen mode coding. Line number is visible in statusbar.
   // and the biggest reason I used line numbers was to see if a

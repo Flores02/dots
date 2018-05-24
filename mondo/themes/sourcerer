@@ -1,3 +1,7 @@
+!! based on sourcerer
+!! by Xero Harrison
+!! https://github.com/xero/sourcerer
+
 #define fg #c2c2b0
 #define bg #282828
 
@@ -56,3 +60,4 @@ mondo.colors.sel2:        base0
 #define guifontface2      sans
 #define guifontsize2      18
 
+!! syntax:ssExcla

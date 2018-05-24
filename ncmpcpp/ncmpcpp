@@ -11,7 +11,7 @@ playlist_display_mode = columns
 playlist_separate_albums = no
 playlist_show_remaining_time = yes
 
-song_columns_list_format = (80)$b[green]{t|f:Title} (7f)$b[blue]{lr}
+song_columns_list_format = (80)$b[white]{t|f:Title} (7f)$b[blue]{lr}
 now_playing_prefix = $/b
 now_playing_suffix = $b
 
@@ -39,7 +39,7 @@ progressbar_elapsed_color = blue
 
 follow_now_playing_lyrics = yes
 fetch_lyrics_for_current_song_in_background = yes
-store_lyrics_in_song_dir = yes
+store_lyrics_in_song_dir = no
 
 ncmpcpp_directory = ~/.config/ncmpcpp
 lyrics_directory = ~/.lyrics
@@ -53,7 +53,7 @@ user_interface = classic
 
 allow_for_physical_item_deletion = yes
 ignore_leading_the = yes
-mouse_support = yes
+mouse_support = no
 autocenter_mode = yes
 centered_cursor = yes
 

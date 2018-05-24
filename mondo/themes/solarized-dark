@@ -1,3 +1,7 @@
+!! Based on solarized
+!! by Ethan Soothover:  
+!! http://ethanschoonover.com/solarized/
+
 #define fg #839496
 #define bg #073642
 

@@ -1,0 +1,616 @@
+# syntax:ssHash
+
+https://eztv.ag/ezrss.xml ~eztv
+
+"query:pod:tags # \"pod\""
+"query:yt:tags # \"yt\""
+"query:twi:tags # \"twi\""
+"query:bbl:tags # \"bbl\""
+"query:4ch:tags # \"4chan\""
+"query:red:tags # \"red\""
+"query:hax:tags # \"hax\""
+"query:tek:tags # \"tek\""
+"query:nix:tags # \"lnx\""
+"query:kul:tags # \"kul\""
+"query:gld:tags # \"gld\""
+"query:nix:tags # \"gh\""
+"query:myt:tags # \"myt\""
+"query:beat:tags # \"beat\""
+
+# >> 4chan
+
+https://boards.4chan.org/g/index.rss "!/g/" "4chan"
+https://boards.4chan.org/wg/index.rss "!/wg/" "4chan"
+https://boards.4chan.org/pol/index.rss "!/pol/" "4chan"
+https://boards.4chan.org/gif/index.rss "!/gif/" "4chan"
+https://boards.4chan.org/biz/index.rss "!/biz/" "4chan"
+https://boards.4chan.org/mu/index.rss "!/mu/" "4chan"
+https://boards.4chan.org/fa/index.rss "!/fa/" "4chan"
+
+# >> red
+
+https://www.reddit.com/r/commandline/.rss "!commandline" "red"
+https://reddit.com/r/unixart/.rss "!unixart" "red"
+https://reddit.com/r/unixporn/.rss "!unixporn" "red"
+https://reddit.com/r/i3wm/.rss "!i3wm" "red"
+https://reddit.com/r/programmingcirclejerk/.rss "!programmingcirclejerk" "red"
+https://reddit.com/r/AutoHotkey/.rss "!AutoHotkey" "red"
+https://reddit.com/r/bash/.rss "!bash" "red"
+https://reddit.com/r/blackmagicfuckery/.rss "!blackmagicfuckery" "red"
+https://reddit.com/r/dataisbeautiful/.rss "!dataisbeautiful" "red"
+https://reddit.com/r/interestingasfuck/.rss "!interestingasfuck" "red"
+https://reddit.com/r/podcasts/.rss "!podcasts" "red"
+
+# >> twi
+
+https://twitrss.me/twitter_user_to_rss/?user=bitfield "!bitfield" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=johanknorberg "!johanknorberg" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=nntaleb "!nntaleb" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=UnabomberCabin "!UnabomberCabin" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=SolarDeathCult "!SolarDeathCult" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=TedKacsynthski "!TedKacsynthski" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=SNAKKKESSSSSSSS "!SNAKKKESSSSSSSS" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=cumtownpodcast "!cumtownpodcast" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=climagic "!climagic" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=notch "!notch" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=Sir_Cobra "!Sir_Cobra" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=VICE "!VICE" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=CountDankulaTV "!CountDankulaTV" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=realDonaldTrump  "!realDonaldTrump " "twi"
+https://twitrss.me/twitter_user_to_rss/?user=Bardissimo "!Bardissimo" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=jordanbpeterson "!jordanbpeterson" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=PeterSjostedtH "!PeterSjostedtH" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=KirkegaardEmil "!KirkegaardEmil" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=svensson24 "!svensson24" "twi"
+https://twitrss.me/twitter_user_to_rss/?user=ID_AA_Carmack "!ID_AA_Carmack" "twi"
+
+# >> pod
+
+https://daringfireball.net/thetalkshow/rss "!The talkshow" "pod"
+https://kubernetespodcast.com/feeds/audio.xml "!kubernetespodcast" "pod"
+http://betterpodcasting.libsyn.com/rss "!podcasting" "pod"
+http://internetcitizenpodcast.com/feed/podcast/ "!iCitizen" "pod"
+http://freestylechristianity.libsyn.com/rss "!Freestyle Christianity" pod
+http://www.sweclockers.com/feeds/podcast "!SweClockers Podcast" pod
+http://mtggoldfish.com/podcasts/feed.rss "!MTGGoldfish Podcast" pod
+http://tomwoods.com/podcast/feed/ "!The Tom Woods Show" pod
+http://commoflage.heltperfekt.com/feed/ "!Commoflage" pod
+http://feeds.soundcloud.com/users/soundcloud:users:229208623/sounds.rss "!5 juli-podden" pod
+http://aldrigvila.libsyn.com/rss "!AVPOD" pod
+http://feeds.soundcloud.com/users/soundcloud:users:197875983/sounds.rss "!Dekonstruktiv kritik" pod
+https://rss.simplecast.com/podcasts/1088/rss "!Tentative" pod
+http://feeds.feedburner.com/matrixmasters/iGAG "!Psychedelic Salon" pod
+http://feeds.soundcloud.com/users/soundcloud:users:158941275/sounds.rss "!MSPoweruser Podcast" pod
+http://picklemonkey.net/cloudflipper/cloudflipper.php?feed=https://soundcloud.com/studio-axess "!studio-axess" pod
+http://feeds.podtrac.com/fNBYjm-45_h8 "!radio bubb.la" pod
+http://www.se-radio.net/feed/ "!Software Engineering Radio - the podcast for professional software developers" pod
+http://feeds.soundcloud.com/users/soundcloud:users:138691637/sounds.rss "!Institutionen" pod
+http://www.mises.se/feed/podcast/ "!Radio Mises" pod
+http://picklemonkey.net/cloudflipper/cloudflipper.php?feed=https://soundcloud.com/user-942164455 "!5 juli-podden" pod
+http://contrakrugman.libsyn.com/rss "!Contra Krugman" pod
+http://rss.acast.com/arkivsamtal "!Arkiv Samtal" pod
+https://changelog.com/podcast/feed "!The Changelog" pod
+https://garbage.fm/episodes.rss "!Garbage" pod
+http://arstechnica.libsyn.com/rss "!The Ars Technicast" pod
+http://picklemonkey.net/cloudflipper/cloudflipper.php?feed=https://soundcloud.com/markus-och-malcom "!markus-och-malcom" pod
+http://feeds.feedburner.com/FreeWeed "!Free Weed" pod
+http://feedpress.me/kodsnack "!Kodsnack" pod
+http://joeroganexp.joerogan.libsynpro.com/rss "!The Joe Rogan Experience" pod
+http://enlitenpoddomit.se/feed/ "!En Liten Podd Om It" pod
+http://feeds.soundcloud.com/users/soundcloud:users:309401315/sounds.rss "!Mises Ljud" pod
+http://feeds.soundcloud.com/users/soundcloud:users:297012835/sounds.rss "!Radio Mises" pod
+http://feeds.gimletmedia.com/hearstartup "!StartUp Podcast" pod
+http://tackforkaffet.libsyn.com/rss/ "!Tack För Kaffet Podcast" pod
+http://frihetsfaxen.se/feed/ "!Frihetsfaxen" pod
+https://www.ikrigochfred.se/index.php/feed/podcast/ "!I Krig och Fred" pod
+http://songexploder.libsyn.com/rss "!Song Exploder" pod
+http://rss.acast.com/specialisterna "!Specialisterna podcast" pod
+https://rss.simplecast.com/podcasts/271/rss "!Giant Robots Smashing Into Other Giant Robots" pod
+http://www.mtggoldfish.com/podcasts/feed.rss "!MTGGoldfish Podcast" pod
+http://rss.acast.com/60minuter/ "!60 minuter" pod
+http://www.agical.se/pod/vag74.xml "!Väg 74" pod
+http://www.linuxvoice.com/podcast_mp3.rss "!Linux Voice Podcast" pod
+http://feeds.podtrac.com/fZFWXB00bhx9 "!Sumpsnack" pod
+http://feeds.podtrac.com/p4HBJgmMuDun "!Radio Frihetligt" pod
+http://spelskaparna.libsyn.com/rss "!Spelskaparna" pod
+http://feeds.soundcloud.com/users/soundcloud:users:59753170/sounds.rss "!Exploring the Mind" pod
+http://denkok "!Den kokta grodan" pod
+http://feeds.feedburner.com/TechmemeRideHome "!Techmeme Ride Home" pod
+http://rss.acast.com/framgangspodden "!Framgångspodden" pod
+http://feeds.twit.tv/sn.xml "!Security Now (MP3)" pod
+http://limitedresources.libsyn.com/rss "!Limited Resources" pod
+http://feeds.soundcloud.com/users/soundcloud:users:265617273/sounds.rss "!Bibliotek" pod
+# http://podcast.armadamusic.com/asot/podcast.xml "!A State of Trance Official Podcast" pod
+http://shoutengine.com/CumTown.xml "!Cum Town" pod
+http://feeds.gimletmedia.com/hearopenforbusiness "!Open For Business" pod
+https://latenightlinux.com/feed/mp3 "!Late Night Linux (MP3)" pod
+http://startupveckan.libsyn.com/rss "!Breakit: Breakits podcast" pod
+http://sverigesradio.se/api/rss/pod/4007 "!Spanarna i P1" pod
+http://expandingmind.podbean.com/feed/ "!Expanding Mind" pod
+http://smultronstallet.libsyn.com/rss "!Smultronstället" pod
+http://revolutionspodcast.libsyn.com/rss/ "!Revolutions" pod
+https://emacsel.com/ogg.xml "!Emacs.el" pod
+http://www.commanderinmtg.com/feed/podcast "!Commanderin’ MTG Podcast" pod
+http://feeds.feedburner.com/filipochfredrik/podcast "!The Filip &amp; Fredrik podcast" pod
+http://www.radixjournal.com/podcast/?format=rss "!PODCAST - RADIX JOURNAL" pod
+http://feeds.podtrac.com/fbNTQNjQz499 "!The Pitch Podcast" pod
+http://feeds.feedburner.com/MarkusOchMalcom "!Markus och Malcom" pod
+http://www.blogtalkradio.com/satanic-international-network/podcast "!Satanic International Network" pod
+http://www.myterochmysterier.se/feed/myterochmysterier/ "!Myter &amp; Mysterier" pod
+http://feeds.soundcloud.com/users/soundcloud:users:17120544/sounds.rss "!Magister" pod
+http://www.wakeupcallpodcast.com/feed/podcast/ "!Wake Up Call Podcast: Foreign Relations, Economics, Political Theory, Current Events, History, Politics, Countries, War and Peace" pod
+http://www.borderlessblog.com/category/podcast/feed/ "!Borderless » Podcast" pod
+http://legionofskanks.libsyn.com/rss "!Legion of Skanks Podcast" pod
+http://historyofrome.libsyn.com/rss "!The History of Rome" pod
+https://feeds.pacific-content.com/commandlineheroes "!Command Line Heroes" pod
+http://clientsfromhell.libsyn.com/rss "!Clients From Hell Podcast" pod
+http://palstrobaek.com/framtidensfolk?format=rss "!Framtidens Folk" pod
+http://anarchast.com/front/rss.xml "!Anarchast" pod
+http://picklemonkey.net/cloudflipper/cloudflipper.php?feed=https://soundcloud.com/user-709654858 "!Rothbardinstitutet" pod
+http://www.theneedledrop.com/podcast?format=RSS "!TND Podcast - The Needle Drop" pod
+http://smodcast.com/channels/smodcast/feed "!SModcast » SModcast" pod
+http://styrkelabbet.libsyn.com/rss "!Styrkelabbet" pod
+# http://www.wizards.com/drivetoworkpodcast.xml "!Magic: The Gathering Drive to Work Podcast" pod
+https://rss.simplecast.com/podcasts/4151/rss "!Reason Town" pod
+http://www.alifewellwasted.com/episodes/episodes.xml "!A Life Well Wasted" pod
+https://www.bjoremanmelin.se/feed/podcast "!Björeman // Melin" pod
+https://risky.biz/feeds/risky-business "!Risky Business" pod
+http://feeds.cato.org/CatoDailyPodcast "!Cato Daily Podcast" pod
+https://rss.simplecast.com/podcasts/2557/rss "!Freelance to Founder" pod
+http://feeds.feedburner.com/thetruthapm "!The Truth" pod
+http://feeds.soundcloud.com/users/soundcloud:users:188500810/sounds.rss "!Radio Bonde" pod
+http://podcast.wh1t3rabbit.net/rss "!Down the Security Rabbithole" pod
+https://www.npr.org/rss/podcast.php?id=510313 "!How I Built This" pod
+http://stillinbeta.libsyn.com/rss "!Still in beta" pod
+http://feeds.99percentinvisible.org/99percentinvisible "!99% Invisible" pod
+http://feed.thisamericanlife.org/talpodcast "!This American Life" pod
+http://underutveckling.libsyn.com/rss "!Under utveckling" pod
+http://feeds.feedburner.com/dancarlin/history?format=xml "!Dan Carlin's Hardcore History" pod
+http://www.sidehustlenation.com/feed/podcast "!The Side Hustle Show: Business Ideas for Part-Time Entrepreneurs" pod
+http://feeds.podtrac.com/9dPm65vdpLL1 "!Hanselminutes" pod
+http://feeds.feedburner.com/InternetHistoryPodcast "!Internet History Podcast" pod
+http://feeds.soundcloud.com/users/soundcloud:users:11107297/sounds.rss "!AmerikanskaNyhetsanalyser" pod
+http://www.spreaker.com/show/2807681/episodes/feed "!Generation Z" pod
+http://mywifequitherjob.com/category/podcast/feed/ "!The My Wife Quit Her Job Podcast" pod
+http://feeds.serialpodcast.org/serialpodcast "!Serial" pod
+http://freestylechristianitysverige.libsyn.com/rss "!Freestyle Christianity Sverige" pod
+http://lunduke.com/feed/podcast/ "!The Lunduke Show" pod
+http://static.radioplay.se/data/rss/315.xml "!Framgångspodden" pod
+https://feeds.slack-podcast.com/workinprogress "!Work in Progress" pod
+https://podcasts.files.bbci.co.uk/b00nrtd2.rss "!A History of the World in 100 Objects" pod
+https://media.zencast.fm/the-paranormies-present-the-ahnenerbe-hour-1/rss "!The Paranormies Present: The Ahnenerbe Hour" pod
+http://feeds.soundcloud.com/users/soundcloud:users:87660023/sounds.rss "!Creative Pep Talk" pod
+http://www.podcastone.com/podcast?categoryID2=1060 "!Retronauts" pod
+http://www.spreaker.com/show/2653426/episodes/feed "!Vita pillret" pod
+https://softwareengineeringdaily.com/feed/ "!Software Engineering Daily" pod
+http://mattssonhelin.libsyn.com/rss "!Mattsson Helin podcast" pod
+http://www.programmingthrowdown.com/feeds/posts/default "!Programming Throwdown" pod
+http://feeds.soundcloud.com/users/soundcloud:users:308241045/sounds.rss "!BlockKedjePodden" pod
+http://www.wtfpod.com/podcast/rss "!WTF with Marc Maron Podcast - Episodes" pod
+https://changelog.com/gotime/feed "!Go Time" pod
+http://feeds.soundcloud.com/users/soundcloud:users:239787249/sounds.rss "!LambdaCast" pod
+http://www.howstuffworks.com/podcasts/stuff-they-dont-want-you-to-know-audio.rss "!Stuff They Don't Want You To Know Audio" pod
+http://feeds.twit.tv/twig.xml "!This Week in Google (MP3)" pod
+http://feed.nashownotes.com/rss.xml "!No Agenda" pod
+https://www.haskellcast.com/feed.xml "!The Haskell Cast" pod
+http://feeds.twit.tv/floss.xml "!FLOSS Weekly (MP3)" pod
+https://securityweekly.com/feed/ "!Security Weekly" pod
+http://ubuntupodcast.org/feed/ "!Ubuntu Podcast" pod
+http://billburr.libsyn.com/rss "!Monday Morning Podcast" pod
+http://www.newrustacean.com/feed.xml "!New Rustacean" pod
+http://atp.fm/episodes?format=rss "!Accidental Tech Podcast" pod
+http://feeds.kexp.org/kexp/musicthatmatters?format=xml "!KEXP Presents Music That Matters" pod
+http://feeds.soundcloud.com/users/soundcloud:users:156997065/sounds.rss "!Arrangörspodden" pod
+http://feeds.soundcloud.com/users/soundcloud:users:267057847/sounds.rss "!Karl Linnertorps Begravning" pod
+http://rss.acast.com/usualsuspects "!The Usual Suspects" pod
+http://manifest.fm/rss "!The Manifest" pod
+https://www.functionalgeekery.com/feed/mp3/ "!Functional Geekery" pod
+http://api.sr.se/api/rss/pod/21650 "!Snedtänkt med Kalle Lind" pod
+http://feeds.podtrac.com/3RfQ4b93gYzd "!Rättegångspodden" pod
+http://stealthisshow.com/feed/podcast "!STEAL THIS SHOW" pod
+http://feeds.twit.tv/ww.xml "!Windows Weekly (MP3)" pod
+http://feeds.soundcloud.com/users/soundcloud:users:275421871/sounds.rss "!Sofisten" pod
+http://feeds.soundcloud.com/users/soundcloud:users:274892647/sounds.rss "!En Förlorad Sak" pod
+http://thaddeus-russell-ihfa.squarespace.com/podcast?format=rss "!Unregistered with Thaddeus Russell" pod
+http://thedickshow.com/feed/ "!The Dick Show" pod
+http://feeds.soundcloud.com/users/soundcloud:users:308530597/sounds.rss "!Trygghetspodden" pod
+http://api.sr.se/api/rss/pod/21967 "!Den svenska musikhistorien" pod
+http://thenerdherd2.libsyn.com/rss "!The Nerd Herd" pod
+http://feeds.gimletmedia.com/mysteryshow "!Mystery Show" pod
+http://www.radiolab.org/feeds/podcast/ "!Radiolab from WNYC" pod
+http://api.sr.se/api/rss/pod/22430 "!Rasmus lär sig Sverige" pod
+http://digitalpodden.podbean.com/feed/ "!Digitalpodden" pod
+http://rss.acast.com/bogministeriet "!Bögministeriet" pod
+http://overkligt.se/category/podcast/feed "!Overkligt » Podcast" pod
+http://www.gatheringmagic.com/category/articles/podcast-articles/mtg-potpourri/feed/ "!MTG Potpourri" pod
+http://angestpodden.podomatic.com/rss2.xml "!Ångestpodden" pod
+http://api.sr.se/api/rss/pod?id=3966 "!P3 Dokumentär" pod
+http://feeds.harvardbusiness.org/harvardbusiness/ideacast "!HBR IdeaCast" pod
+# http://api.sr.se/api/rss/pod?id=4023 "!Sommar och Vinter i P1" pod
+http://feeds.soundcloud.com/users/soundcloud:users:96740050/sounds.rss "!The Radix Podcast" pod
+http://podcast.nixers.net/feed/feed.xml "!Nixers Podcast" pod
+http://mediepodden.libsyn.com/rss "!Mediepodden" pod
+http://feeds.feedburner.com/CriminalShow "!Criminal" pod
+http://feeds.soundcloud.com/users/soundcloud:users:94518611/sounds.rss "!The New Stack Analysts" pod
+http://feeds.soundcloud.com/users/soundcloud:users:107605642/sounds.rss "!The New Stack Makers" pod
+http://spikedonlinepodcasts.podbean.com/feed/ "!The spiked podcast" pod
+http://www.frihetssmedjan.se/category/podcast/feed/ "!Frihetssmedjan » Frihetspodden" pod
+http://feeds.prx.org/toe "!Benjamen Walker’s Theory of Everything" pod
+http://feeds.feedburner.com/sporkful "!The Sporkful" pod
+http://www.npr.org/templates/rss/podcast.php?id=510298 "!TED Radio Hour" pod
+http://feeds.wnyc.org/notetoself-podcast "!Note to Self" pod
+
+# >> yt
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UChwwoeOZ3EJPobW83dgQfAg "!WeAreChange" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7TvL4GlQyMBLlUsTrN_C4Q "!corbettreport" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdHZela1qTNM9iIw2YxenIw "!Newsbud" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCM6OSyCePalr6ERriuePw7w "!Robert Moore" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBVCi5JbYmfG3q5MEuoWdOw "!" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmrLCXSDScliR7q8AxxjvXg "!Black Pigeon Speaks" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCO3LEtymiLrgvpb59cNsb8A "!The Go Programming Language" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnpDurxReTSpFs5-AhDo8Kg "!ATu0026T Tech Channel" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcAy1o8VUCkdowxRYbc0XRw "!Sebi's Random Tech" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqeKeRXssKqbK4XHqLYrctQ "!LinuxFest Northwest" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkJ6eQKpHZgsZBla4JgKj3A "!" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCe4FkWrvG9TaPdAMUHsQvBA "!Sleepy Dog" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEBb1b_L6zDS3xTUrIALZOw "!MIT OpenCourseWare" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkinHTvYhinBgP90fy-dRgw "!Bruno S." yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqd9oVuR4tuKD5Y9AFwxz7Q "!Terminal Root" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQpkMe-SLNg0HwWCP3eeTxw "!Linux u0026 Other Stuff" yt
+https://www.youtube.com/feeds/videos.xml?channel_id= "!" yt
+https://www.youtube.com/feeds/videos.xml?channel_id= "!" yt
+https://www.youtube.com/feeds/videos.xml?channel_id= "!" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC60hYrum5MzcVRj5u4EJ5cQ "!KALI LINUX TRICKS" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvrLvII5oxSWEMEkszrxXEA "!N-O-D-E" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbzNcFN7cxA8HO18cTYyTfg "!Doctor Mix" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UClTpDNIOtgfRkyT-AFGNWVw "!Jeri Ellsworth" yt
+https://www.youtube.com/feeds/videos.xml?channel_id= "!" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzWxxSrkgdsK7ELp871bpTw "!Den nödvändiga intoleransen." yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw "!DEFCONConference" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCESmFs-f6Ul7Jnxlgg4fXGg "!Burt Sampson" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbWcXB0PoqOsAvAdfzWMf0w "!Rabbithole" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC86mPcDGZjVqasoahtXDVFg "!GOTO80" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJKLCjeujQj-d3JjsbVtkJw "!World of Zero" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC16jhnBMmqkr0thPoKqlBLQ "!Nikita Tsukanov" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8uSLYDanXDnP9Yn8UrTNzQ "!Racket Lang" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCV7BqRSvfo-z8cXElzpQOtw "!unslaved" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdEi0RmxwAclYMexxmzlleA "!chinerunner" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCC3L8QaxqEGUiBC252GHy3w "!Stefan Molyneux" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLzE7jLdn7dqxK-0OdXeuaw "!Kenji Egashira" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZAENaOaceQUMd84GDc26EA "!Survive the Jive" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC-wmf-Avorzz9QPKzdYFgeg "!Laptop Retrospective" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCJsK5Zbq0dyFZUBtMTHzxjQ "!Alex Ellis" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCvf6Q3_JcZSuG556J2U9VHw "!Ludwig von Mises-Institutet i Sverige" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCJ31x5A6zIdHF5tJhjftyiA "!Microsoft Video Courses" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCc6MhFTqnuIpEGgLBm_jwtw "!Nerd on the Street" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdoBnPAcm0eJpMtzorXIbZQ "!Aron Flam" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCn7lavsPdVGV0qmEEBT6NyA "!Marius Hornberger" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC7Qu6WAXfoGUYc8NxPDZZBg "!Code &amp; Supply" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzH1lp4uy---RvNd1a_tZmw "!Gathering Magic" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCR1uNZFzyXOuty6FK8hXGxQ "!Recurse Center" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCZrrEuHiQjN2CUo84g5tk7w "!tripcode!Q/7" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw "!PewDiePie" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCNqkWhEuuUHlF38Ix-D667Q "!Sysco LABS Sri Lanka" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCG749Dj4V2fKa143f8sE60Q "!Tim Pool" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCEYmda1KQTjrhLBeWutKuGA "!Luke Ford" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCvksXSnLqIVM_uFB7xyrsSg "!Container Camp" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC3CMnLJ4jJ4PATKHDmie4wA "!Allmogen" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCis5B3Zru-vymPRcbpM1NEA "!Build Stuff" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCnw_d1lLMFhqkL5QdsuIInQ "!OpenBazaar" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPj8fSalbWRebPWo6dVeZUw "!sv3rige" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UChBsOxskMpDmBAsgJ91fKcg "!ThuleanPerspective" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCHG0CNxmtdl7cXhAV7AZKkQ "!Vivaldi Browser" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCyGNhJII1zhVz3Z01gBoe1w "!Schack på schemat" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC8u_aCYLYFrElFFbuRRItUQ "!TheAlternative Zurich" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCLH7qUqM0PLieCVaHA7RegA "!Gad Saad" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCTDws6IhmmGLAFUqa7BKCDg "!DGS_TV" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCJZTn-fPu-uIA55UI47_cXg "!Terry Davis" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVmqfvWsKeFaMGY68CbcVVQ "!ChannelFireball" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCGwtC5MuvpqkxWyyV90olFQ "!Chris Fisher" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCJaTFo0_z9lEG_v7L_LT2pw "!Airbitz" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC0A3ldncnGQ1M_RU2Wb4L2A "!quidsup" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCtZO3K2p8mqFwiKWb9k7fXA "!TechAltar" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCcQaZBZHE4K96o5pKMiKS1A "!Idiothem" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC9DMosQxCEYhtQrS8jR1OGA "!Finkel TV" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCerY7qbTBlfQQCXcrhjD0UQ "!MoreChannelNoise" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCgTNupxATBfWmfehv21ym-g "!Null Byte" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdGi-giXt1ceY7V2jkcqPZQ "!ITTFami" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC8kf0zcrJkz7muZg2C_J-XQ "!Angry Foreigner" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "!gotbletu" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCH5Qu8Sd-m-7Zk4xc_J5VzA "!Klossy" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCe0qY559w16UGUIrYfhFC-w "!reggaebastiljen" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCZDfnUn74N0WeAPvMqTOrtA "!Spaceinvader One" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCJ3AxeCHGPZkMi3kRfCuiHw "!AngelSix" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbmNph6atAoGfqLoCL_duAg "!Talks at Google" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCC-PSXC7POexaGhJuSWsAtQ "!Nordisk alternativhöger" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCKTehwyGCKF-b2wo0RKwrcg "!Bisqwit" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCdFFct1q2ECpntGA5loBkzw "!Tack För Kaffet Podcast" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC3hPKpUDM5_Qyoz0JoQDwvw "!Mårten Andersson" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC_QIfHvN9auy2CoOdSfMWDw "!Strange Loop" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC0rqucBdTuFTjJiefW5t-IQ "!TensorFlow" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA "!IppSec" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_tKHpo6xYpwdIRC4uotmuQ "!REVOLVER" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCSRhwaM00ay0fasnsw6EXKA "!dotconferences" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw "!Google Developers" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCtxCXg-UvSnTKPOzLH4wJaQ "!Coding Tech" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC3azLjQuz9s5qk76KEXaTvA "!suckerpinch" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCimS6P854cQ23j6c_xst7EQ "!Hacker Warehouse" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCsDIUCGkco6Po7_krFE2_GA "!Linux /usr/" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "!Computerphile" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7DdEm33SyaTDtWYGO2CwdA "!Physics Girl" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC63JyBlOxP6M7mtKXiGixRQ "!KingHerring" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL_f53ZEJxp8TtlOkHwMV9Q "!JordanPetersonVideos" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-oCQXrco3s4l8fTQLJ2-qA "!Henrik Nyblom" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UChqrDOwARrxdJF-ykAptc7w "!Visual Studio" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCnbvPS_rXp4PC21PG2k1UVg "!The Gaming Historian" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW64r1wPzfj0W1qbzzfCgFg "!SweClockers" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCDEtZ7AKmwS0_GNJog01D2g "!Uncle Dave" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCVMhFCCmrMisICIoyTIXsKw "!Chris Hildenbrand" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC_yXDW2Z8qklx5ibMi4L5qA "!It's a conspiracy" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "!Ben Eater" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCAezwIIm1SfsqdmbQI-65pA "!Hakka Labs" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCxboW7x0jZqFdvMdCFKTMsQ "!GDquest" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkQX1tChV7Z7l1LFF4L9j_g "!NewCircle Training" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrHQNOyU1q6BFEfkNq2CYMA "!HeartBeast" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UClBCi5TpnTXorbRke79UyLw "!Big Family Homestead" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCr_DXJ7ZUAJO_d8CnHYTDMQ "!TheTedNelson" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs_tLP3AiwYKwdUHpltJPuA "!GOTO Conferences" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPZ7u6if0-GkhvKGanydMpA "!CarlsTechShed" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0rZoXAD5lxgBHMsjrGwWWQ "!Styxhexenhammer666" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCFX97evt_7Akx_R9ovfiSwQ "!PowerShell Virtual Chapter" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A "!Tom Scott" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDsElQQt_gCZ9LgnW-7v-cQ "!Kirsten Dirksen" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCLM6JlQkQ9tltBL9Bipci9g "!Marie Cachet" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCf93fPKwotph47H3_KDcRyg "!Kris Occhipinti matching: bash" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCN0-RRaxMgh86eOwndAklxw "!The Golden One" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1ydE9gDHTdvbNVIgEKIKzw "!vwestlife" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2w1CQqPli4w94-PCg2UvJQ "!Fringe Elements" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCvmINlrza7JHB1zkIOuXEbw "!Giraffe Academy" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyoCwKwPiCJGOB2Ya2yiBkA "!TheDemoTube" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCO3LEtymiLrgvpb59cNsb8A "!The Go Programming Language" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2GvR38td1-3lVcUQgOBKnA "!GuruBrew" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMLgHbpJ8qYqj3CkdbvC0Ww "!Fran Blanche" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA "!Bryan Lunduke" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9NuJImUbaSNKiwF2bdSfAw "!FOSDEM" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUkRj4qoT1bsWpE_C8lZYoQ "!ThinMatrix" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBsuOBu-dxj5bx1KMgmar5g "!TheHappieCat" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmyZTaqmKKYD1CS_ApJL9rg "!Filipe Cruz" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-yewGHQbNFpDrGM0diZOLA "!Sargon of Akkad" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCaYhcUwRBNscFNUKTjgPFiA "!Rust" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfX55Sx5hEFjoC3cNs6mCUQ "!TheLinuxFoundation" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCJ6q9Ie29ajGqKApbLqfBOg "!Black Hat" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu6mSoMNzHQiBIOCkHUa2Aw "!Cody'sLab" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCthvmTSlmIcMH93LIJNe-2w "!Linux Foundation Events" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCj_GJISS8W2uOmCP9u14Uvg "!Know Idea Productions" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCvA_wgsX6eFAOXI8Rbg_WiQ "!tutoriaLinux" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCCatR7nWbYrkVXdxXb4cGXw "!DataDash" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA "!Brad Traversy" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC49NjdLfhOjp57k74m_0fpA "!Under Produktion" yt
+https://techcrunch.com/video/feed/ "!Videos – TechCrunch" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCptxtVyJkQAJZcFwBbIDZcg "!Rust Belt Rust Conference" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC2GHqYE3fVJMncbrRd8AqcA "!Go In 5 Minutes" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCmT6-ChKpaiIVu2fhEIsNtQ "!misesmedia" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCil9uD49ImpMSXYi3sU5Gwg "!Rust Edinburgh" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGooU472l1UqbUCXR3q1SEQ "!arcanfrontend" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "!Numberphile" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw "!theneedledrop" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCbHXJGd7c8Hy4z0-YX1Jf3Q "!Matt Hartley" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC_BzFbxG2za3bp5NRRRXJSw "!JustForFunc" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCbNwEJHffWMhXJLSnPzzL9w "!Johannes 'Jofi' Finnlaugsson" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvBqzzvUBLCs8Y7Axb-jZew "!Sixty Symbols" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCbF-4yQQAWw-UnuCd2Azfzg "!Christopher Okhravi" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVzVmdkJZ8USVWtvLp9OmWg "!Publicistklubben" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCnxQ8o9RpqxGF2oLHcCn9VQ "!anthonyfantano" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCx9QVEApa5BKLw9r8cnOFEA "!Gopher Academy" yt
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLALopHfWkFlFTj__lkebZfUw5s-CWVuIt "!Mises Weekends" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ "!sentdex" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9DkCKm4_VDztRRyge4mCJQ "!Amoeba" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCqRfhD3bKs-6gc5lPh2fRVw "!Failing Forward" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCdbdpQNVRH1Ks-82CAdFQxQ "!red pill psychology" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCJdKr0Bgd_5saZYqLCa9mng "!Rubin Report" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC2Qw1dzXDBAZPwS7zm37g8g "!COLORS" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC0CQSd5vHFjWPIJeqmkLUUg "!DontWasteTheTape" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "!DistroTube" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgp7yKBqjo5PQc4TApW69Ww "!Travis McBee" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "!Luke Smith" yt
+https://blog.meetupfeed.com/feed/ "!MeetupFeed" yt
+
+# >> bbl
+
+http://bubb.la/rss/varlden "!Världen" bbl
+http://bubb.la/rss/latinamerika "!Latinamerika" bbl
+http://bubb.la/rss/teknik "!Teknik" bbl
+http://bubb.la/rss/nordamerika "!Nordamerika" bbl
+http://bubb.la/rss/ekonomi "!Ekonomi" bbl
+http://bubb.la/rss/politik "!Politik" bbl
+http://bubb.la/rss/vetenskap "!Vetenskap" bbl
+http://bubb.la/rss/asien "!Asien" bbl
+http://bubb.la/rss/media "!Media" bbl
+http://bubb.la/rss/europa "!Europa" bbl
+http://bubb.la/rss/blandat "!Blandat" bbl
+http://bubb.la/rss/opinion "!Opinion" bbl
+http://bubb.la/rss/afrika "!Afrika" bbl
+http://bubb.la/rss/sverige "!Sverige" bbl
+http://bubb.la/rss/mellanostern "!Mellanöstern" bbl
+
+# >> hax
+
+https://michael.stapelberg.de/posts/2018-03-13-cpu/feed.xml "!stapelberg" hax
+http://nullprogram.com/feed/ "!null program" hax
+http://tobold.org/feed "!Toby Goodwin" hax
+https://xaizek.github.io/feed.xml "!Some notes on computer stuff Posts" hax
+https://jup8restoration.wordpress.com/feed/ "!My Roland Jupiter 8 Restoration project" hax
+https://zwischenzugs.com/feed/ "!zwischenzugs" hax
+https://matthias-endler.de/rss.xml "!Matthias Endler" hax
+https://nixers.net/newsletter/feed.xml "!Nixers Newsletter" hax
+http://www.brendangregg.com/blog/rss.xml "!Brendan Gregg's Blog" hax
+http://who-t.blogspot.com/feeds/posts/default "!Who-T" hax
+http://null-byte.wonderhowto.com/rss.xml "!Null Byte « WonderHowTo" hax
+https://media.ccc.de/c/34c3/podcast/mp4-hq.xml "!Chaos Computer Club - 34C3: TUWAT (high quality mp4)" hax
+http://boz.com/boz.rss "!boz.com" hax
+http://www.thelinuxrain.com/articles/feed "!Latest articles" hax
+https://hund.github.io/feed.xml "!hund.github.io" hax
+http://blog.z3bra.org/rss/feed.xml "!Monochromatic" hax
+https://codewithoutrules.com/atom.xml "!Code Without Rules" hax
+https://bash-prompt.net/index.xml "!Bash Prompt" hax
+http://www.sicpers.info/feed/ "!Structure and Interpretation of Computer Programmers" hax
+http://esr.ibiblio.org/?feed=rss "!Armed and Dangerous" hax
+https://tinyhack.com/feed/ "!Tinyhack.com" hax
+http://250bpm.com/feed/pages/pagename/start/category/blog/t/250bpm-blogs/h/http%3A%2F%2Fwww.250bpm.com%2Fblog "!250bpm-blogs" hax
+http://jamie-wong.com/atom.xml "!Zero Wind :: Jamie Wong" hax
+http://unikernel.org/atom.xml "!Unikernels" hax
+https://michaelochurch.wordpress.com/feed/ "!Michael O. Church" hax
+http://blackbird.si/feed/ "!Brainstorming of a sysadminBrainstorming of a sysadmin" hax
+http://lemire.me/blog/feed/ "!Daniel Lemire's blog" hax
+https://iridakos.com/feed.xml "!iridakos" hax
+https://www.jwz.org/blog/feed/ "!jwz" hax
+https://oscarforner.com/rss "!Oscar Forner's personal website" hax
+http://esr.ibiblio.org/?feed=rss2 "!Armed and Dangerous" hax
+https://cmcenroe.me/feed.xml "!Curtis McEnroe" hax
+http://feeds.falkvinge.net/Falkvinge-on-Infopolicy "!Falkvinge on Infopolicy" hax
+http://thomasdiewald.com/?feed=rss2 "!Thomas Diewald" hax
+https://www.dotslashlinux.com/index.xml "!Are You Ready? (Y/Y) | DOTSLASHLINUX" hax
+http://feed.olivierlacan.com/ "!Olivier Lacan" hax
+https://daniel.haxx.se/blog/feed/ "!daniel.haxx.se" hax
+https://snork.ca/feed.xml "!snork.ca" hax
+http://strangequark.tk/index.php/feed "!Quark_2.0" hax
+http://seenaburns.com/feed.xml "!Seena Burns" hax
+https://blog.alexellis.io/rss/ "!alex ellis' blog" hax
+https://rcoh.me/index.xml "!Russell Cohen" hax
+https://vermaden.wordpress.com/feed/ "!vermaden" hax
+http://www.michaelwashere.net/feed.xml "!Michael Was Here" hax
+http://coldattic.info/index.xml "!A Foo walks into a Bar... - blog by Paul Shved - coldattic.info" hax
+https://monades.roperzh.com/index.xml "!Monades" hax
+https://codeexplainer.wordpress.com/feed/ "!Code Explainer" hax
+https://jaroslawr.com/feed.xml "!Jarosław Rzeszótko" hax
+http://cestlaz.github.io/rss.xml "!C'est la Z" hax
+https://www.anishathalye.com/feed.xml "!cat /var/log/life" hax
+https://nero.github.io/feed.xml "!nero" hax
+https://forum.lukesmith.xyz/syndication.php?limit=15 "!Luke's GNU/Forum - All Forums" hax
+https://www.chenhuijing.com/feed.xml "!Chen Hui Jing" hax
+https://begriffs.com/atom.xml "!begriffs.com" hax
+http://www.tedinski.com/feed.xml "!Ted Kaminski" hax
+http://nmattia.com/atom.xml?type=blog "!nmattia's blog" hax
+https://sanctum.geek.nz/arabesque/feed/ "!Arabesque" hax
+https://danluu.com/atom.xml "!Dan Luu" hax
+https://paul.lietar.net/feed.xml "!Tales of a Wanna-be Computer Scientist" hax
+
+# >> lnx
+
+https://nixers.net/syndication.php?type=atom1.0 "!nixers" lnx
+http://feeds.feedburner.com/d0od "!OMG! Ubuntu!" lnx
+https://www.devpy.me/rss/ "!DevPy" lnx
+https://www.phoronix.com/rss.php "!Phoronix" lnx
+http://www.linuxinsider.com/perl/syndication/rssfull.pl "!LinuxInsider" lnx
+http://planet.freedesktop.org/atom.xml "!planet.freedesktop.org" lnx
+http://www.howtoforge.com/node/feed "!HowtoForge - Linux Howtos and Tutorials -" lnx
+http://feeds.feedburner.com/tecmint "!Tecmint: Linux Howtos, Tutorials &amp; Guides" lnx
+http://blog.canonical.com/feed/ "!Canonical Blog" lnx
+http://www.linuxjournal.com/taxonomy/term/19/all/feed "!HOW-TOs" lnx
+https://blog.qutebrowser.org/feeds/all.atom.xml "!qutebrowser development blog" lnx
+https://linuxiumcomau.blogspot.com/feeds/posts/default "!linuxium.com.au" lnx
+http://feeds.feedburner.com/FreedomPenguin "!Freedom Penguin" lnx
+https://www.linux.com/feeds/rss "!linux.com" lnx
+https://opensource.com/feed "!Opensource.com" lnx
+
+# >> gld
+
+https://allmogen.org/feed/ "!Projekt Allmogen" gld
+http://www.tino.us/feed/ "!Tino Sanandaji" gld
+http://zynisk.blogg.se/index.rss "!ZYNISK" gld
+http://fnordspotting.blogspot.com/feeds/posts/default "!Fnordspotting" gld
+http://www.mises.se/feed/ "!Ludwig von Mises-Institutet i Sverige" gld
+http://www.liberalapartiet.se/feed/ "!Liberala partiet" gld
+http://feeds.feedburner.com/dangerousminds/dot/net "!Dangerous Minds" gld
+http://anarkokapitalist.blogspot.com/feeds/posts/default "!Anarkokapitalist = AnKa" gld
+http://faktoider.blogspot.com/feeds/posts/default "!Faktoider" gld
+http://spfoia.se/feed/ "!spfoia" gld
+http://theobelisk.net/obelisk/feed/ "!The Obelisk" gld
+http://www.ofuss.se/feed/ "!OFUSS" gld
+http://bittterpittten.blogspot.com/feeds/posts/default "!BITTERPITTEN" gld
+http://cornucopia.cornubot.se/feeds/posts/default?alt=rss "!Cornucopia?" gld
+http://feeds.feedburner.com/partiallyexaminedlife/blog "!The Partially Examined Life Philosophy Podcast" gld
+https://www.magasinetparagraf.se/feed/ "!Magasinet Para§raf" gld
+http://www.radixjournal.com/blog/?format=rss "!BLOG - RADIX JOURNAL" gld
+http://steve-yegge.blogspot.com/feeds/posts/default "!Stevey's Blog Rants" gld
+https://www.aronflam.com/blog-aron?format=RSS "!Blog - ARON FLAM" gld
+http://www.radixjournal.com/journal/?format=rss "!JOURNAL - RADIX JOURNAL" gld
+http://www.spiked-online.com/newsite/rss/ "!Spiked" gld
+https://medium.com/feed/incerto "!INCERTO - Medium" gld
+http://feeds.feedburner.com/RazibKhansTotalFeed "!Razib Khan" gld
+http://anybodys-place.blogspot.com/feeds/posts/default "!anybody´s place" gld
+https://alternativforsverige.se/feed.xml "!Alternativ för Sverige" gld
+https://christianengstrom.wordpress.com/feed/ "!Christian Engström, Pirat" gld
+http://jesperahlin.com/feed/ "!Jesper Ahlin" gld
+https://detgodasamhallet.com/feed/ "!DET GODA SAMHÄLLET" gld
+http://henrikalexandersson.blogspot.com/feeds/posts/default "!Henrik-Alexandersson.se" gld
+http://wisemanswisdoms.blogspot.se/feeds/posts/default "!Wiseman's Wisdoms" gld
+
+# >> tek
+
+https://hackaday.com/blog/feed/ "!Hackaday » Blog" tek
+http://www.breakit.se/feed/artiklar "!breakit.se" tek
+http://feeds.wired.com/wired/index "!WIRED" tek
+http://faktoider.blogspot.com/feeds/posts/default "!Faktoider" tek
+http://www.linuxvoice.com/feed/ "!Linux Voice" tek
+http://rss.slashdot.org/Slashdot/slashdotMain "!Slashdot" tek
+http://feeds.feedburner.com/CssTricks "!CSS-Tricks" tek
+http://www.sweclockers.com/feeds/nyheter "!scl nyheter" tek
+http://www.miranda-ng.org/en/rss/news/ "!Miranda NG - News" tek
+https://www.theregister.co.uk/headlines.atom "!The Register" tek
+http://feeds.arstechnica.com/arstechnica/index/ "!Ars Technica" tek
+http://feeds.feedburner.com/privacyonline "!Privacy Online News" tek
+http://www.roadtovr.com/feed/ "!Road to Virtual Reality" tek
+http://blogg.umu.se/forskarbloggen/feed/ "!Forskarbloggen vid Umeå universitet" tek
+https://robots.thoughtbot.com/feed "!Giant Robots Smashing Into Other Giant Robots" tek
+http://singularityhub.com/feed/ "!Singularity HUB" tek
+https://blog.rust-lang.org/feed.xml "!The Rust Programming Language Blog" tek
+https://techcrunch.com/feed/ "!TechCrunch" tek
+https://auth0.com/blog/rss.xml "!Auth0 Blog" tek
+http://googlecloudplatform.blogspot.com/atom.xml "!Google Cloud Platform Blog" tek
+https://hackernoon.com/feed "!Hacker Noon — Medium" tek
+http://www.zdnet.com/topic/reviews/rss.xml "!Latest topics for ZDNet in Reviews" tek
+http://feeds.feedburner.com/Torrentfreak "!TorrentFreak" tek
+https://changelog.com/feed "!Changelog" tek
+https://lobste.rs/rss "!Lobsters" tek
+
+# >> myt
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUVuN8ti4_tu0EIo0LGOrIw "!BIG KIZZ" yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYac9irNGo3pSrvc_L8HERw "!Arith Härger" yt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC3I2GFN_F8WudD_2jUZbojA "!KEXP - tube" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCZE-G3Bq5bcH52Ik0jrvPbw "!Lou The Human" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCLGElt2TSebXf1VVJzhLQbw "!Matador Records" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCdWeaG-8WPWpd6qcuz_-abw "!PC Music" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC10Ot7i1OpwzlopW8Y6oQSQ "!CapturedTracksBK" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC7AveXWQuQIgdf-1Obki59g "!Forest Swords" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCW0rqnEt1YiuhM7I28l6L2g "!HaimVEVO" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCSvDttdazVc6g9Q9U_CXHfw "!D3x tr0m3" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCZ61C4Ymbb8xShMKrjNtvWg "!BlondieVEVO" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCj42Gao5RF_p1UTR-9ReF0Q "!Small Pond" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCkgmSsnsC6TP0XViHYHLgdA "!Easy Eye Sound" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UC_uPAFZghRvM1W89Rt-opZw "!ChrisStapletonVEVO" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCmbnRwU2AFYuDCcXZFpQMNQ "!Flightless" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCW9Ho9Z7so1psv9sEzQmZjw "!onaxism" myt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDyJIx4tjDNq9YmE8lc8k4Q "!† HOLY PARISH OF DOOM †" myt
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLELa7aiRjdR7kIGKQMUcLCLGTCEciDi2L "!Deezer Sessions" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCZAYGqK80qzw0hVABDMA1XA "!MECA PD CHANNEL II" myt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsgEkEWaXKQwrhlLHFbcQFw "!Sub Pop" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCkqjcQwTNvsxQWT44N6ESrA "!Stoned Meadow Of Doom 2" myt
+http://www.youtube.com/feeds/videos.xml?channel_id=UCu1mK3qnV3GYNaXdy9tEx1w "!Flowers Must Die" myt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSvDttdazVc6g9Q9U_CXHfw "!D3x tr0m3" myt
+
+# >> beat
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCE0J0VYgaaUVBRZLlA3r_GA "!Syndrome" beat
+http://www.youtube.com/feeds/videos.xml?channel_id=UCRlWwvh3gDHlQY7wcedNw9g "!Relevant Beats" beat
+http://www.youtube.com/feeds/videos.xml?channel_id=UCWcA0vULcNnoeDYHBjwtfQg "!NK Music" beat
+http://www.youtube.com/feeds/videos.xml?channel_id=UC6PgUmtSAcFMgNY-DI0PgRQ "!Beatz Era" beat
+http://www.youtube.com/feeds/videos.xml?channel_id=UCijR-CXqpTRsUQqxyDPX7OQ "!GreenBeatz" beat
+
+# >> kul
+
+http://katastrofalaomslag.blogspot.com/feeds/posts/default "!KATASTROFALA OMSLAG" kul
+http://xkcd.com/rss.xml "!xkcd.com" kul
+http://factsandchicks.com/rss "!Facts and Chicks" kul

@@ -1,3 +1,7 @@
+!! Based on a post in /r/unixart
+!! by /u/unixmafia
+!! https://www.reddit.com/r/unixart/comments/7v337p/fvwm/
+
 #define fg #C7C7C7
 #define bg #151515
 
@@ -55,3 +59,4 @@ mondo.colors.sel2:     base03
 #define guifontface2      sans
 #define guifontsize2      18
 
+! syntax:ssExcla
