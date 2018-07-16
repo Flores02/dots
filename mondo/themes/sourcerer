@@ -44,9 +44,9 @@ mondo.colors.sel1:        base03
 mondo.colors.sel2:        base0
 
 !! GUI theme
-#define cursortheme     Windows8-cursor
-#define icontheme       DamaDamas-icon-theme
 #define gtktheme        sourcerer  
+#define cursortheme     Windows8-cursor
+#define icontheme       DamaDamas
 
 !! Terminal fonts
 #define terminalfontface1 FixedFixedsys
@@ -57,7 +57,7 @@ mondo.colors.sel2:        base0
 !! GUI fonts
 #define guifontface1      FixedFixedsys
 #define guifontsize1      12
-#define guifontface2      sans
+#define guifontface2      Hack
 #define guifontsize2      18
 
 !! syntax:ssExcla

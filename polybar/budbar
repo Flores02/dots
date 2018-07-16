@@ -3,7 +3,7 @@
 ; >> mediatitle
 [module/mediatitle]
 type = custom/ipc
-hook-0 = cat ~/polymediaoutput
+hook-0 = cat ~/tmp/polymediaoutput
 hook-1 = echo one
 initial = 1
 
@@ -185,14 +185,21 @@ screenchange-reload = true
 
 ; >> colors
 [colors]
-background = ${xrdb:mondo.colors.act1:#222}
-foreground = ${xrdb:mondo.colors.act2:#222}
-accent = ${xrdb:mondo.colors.act3:#222}
-alert = ${xrdb:mondo.colors.redish:#222}
+background = #4c83ad
+foreground = #eee8d5
+accent = #3f3f3f
+alert = #D4665D
 
 ; >> settings
 [bar/example]
-monitor = ${env:MONITOR:LVDS1}
+font-0 = FixedFixedsys:style=Regular:size=12:antialias=false;2
+
+
+; >> fonts
+font-1 = FontAwesome5Free:style=Solid:pixelsize=10:antialias=false;3
+font-2 = FontAwesome5Brands:style=Solid:pixelsize=10:antialias=false;3
+
+monitor = ${env:MONITOR:LVDS-1}
 width = 100%
 height = 12
 offset-x = 0
@@ -215,10 +222,7 @@ padding-right = 1
 module-margin-left = 0
 module-margin-right = 1
 
-; >> fonts
-font-0 = FixedFixedsys:style=Regular:size=12:antialias=false;2
-font-1 = FontAwesome5Free:style=Solid:pixelsize=10:antialias=false;3
-font-2 = FontAwesome5Brands:style=Solid:pixelsize=10:antialias=false;3
+
 
 tray-position = right
 tray-padding = 2

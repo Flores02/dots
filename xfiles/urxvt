@@ -4,8 +4,8 @@
 URxvt*underlineColor:        blu
 URxvt*highlightColor:        fg
 URxvt*highlightTextColor:    bg
-URxvt*background:            bg
-URxvt*foreground:            fg
+! URxvt*background:            bg
+! URxvt*foreground:            fg
 
 ! URxvt*colorBD:             red
 ! URxvt*colorIT:             grn

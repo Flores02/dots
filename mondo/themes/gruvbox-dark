@@ -44,8 +44,8 @@ mondo.colors.sel2:     fg
 
 !! GUI theme
 #define cursortheme     Windows8-cursor
-#define icontheme       DamaDamas-icon-theme
 #define gtktheme        gruvbox-dark  
+#define icontheme       DamaDamas
 
 !! Terminal fonts
 #define terminalfontface1 FixedFixedsys
@@ -56,7 +56,7 @@ mondo.colors.sel2:     fg
 !! GUI fonts
 #define guifontface1      FixedFixedsys
 #define guifontsize1      12
-#define guifontface2      sans
+#define guifontface2      Hack
 #define guifontsize2      18
 
 !! syntax:ssExcla

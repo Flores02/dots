@@ -41,7 +41,11 @@ if [[ -z $DISPLAY ]]; then
     [[ $layout = vind   ]] && export MONITOR="VGA-1"
     
     export XLAYOUT="$layout"
-    
+    i3dir="$HOME/.config/i3"
+
+    cat $i3dir/base $i3dir/layout-${layout} > $i3dir/config
+
+    unset i3dir
     unset layout
     unset input
     

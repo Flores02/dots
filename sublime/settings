@@ -40,7 +40,7 @@
   "spell_check": false,
   "remember_open_files": false,
   "save_on_focus_lost": true,
-  "scroll_past_end": false,
+  "scroll_past_end": true,
   "scroll_speed": 1.7,
 
   // Makes auto indent a little smarter, e.g., by indenting the next line
@@ -49,7 +49,7 @@
 
   // Adds whitespace up to the first open bracket when indenting. Requires
   // auto_indent to be enabled. I don't know exactly what this does...
-  "indent_to_bracket": false,
+  "indent_to_bracket": true,
   
   // Set to false to prevent word wrapped lines from being indented to the same
   // level
@@ -82,7 +82,7 @@
   // the auto complete window is selected: if false, the window is hidden,
   // otherwise the last item in the window is selected. Likewise for the
   // down key when the last item is selected.
-  "auto_complete_cycle": false,
+  "auto_complete_cycle": true,
 
   // Automatically close HTML and XML tags when </ is entered.
   "auto_close_tags": true,
@@ -99,12 +99,9 @@
   "auto_complete_delay": 800,
 
   // Controls auto pairing of quotes, brackets etc.
-  // I find this "feature" stupid.
-  "auto_match_enabled": false,
+  "auto_match_enabled": true,
   
-  // i have this on, to remind myself to indent with spaces.
-  // tab completion in a text editor is annoying..
-  "tab_completion": true,
+  "tab_completion": false,
 
   // Valid values are "system", "enabled" and "disabled"
   // enabled basically means autohide, which might look nice,
@@ -147,14 +144,6 @@
                            "*/Packages/*", "*/conf/.*", "*.sublime-package",
                            "*/python3.3/*" ],
 
-  // bracket matching is handled by BracketHighlighter
-  "match_brackets": false,
-  "match_brackets_angle": false,
-  "match_brackets_braces": false,
-  "match_brackets_content": false,
-  "match_brackets_square": false,
-  "match_tags": false,
-
   // random boring settings
   "always_show_minimap_viewport": true,
   "highlight_modified_tabs": true,
@@ -171,7 +160,7 @@
   "show_line_endings": true,
   "show_tab_close_buttons": false,
   
-  // package specifics
+  // >> package specifics
   "extract_sublime_package_ask_on_open": true,
   "highlight_modified_tabs": true,
   "vintage_ctrl_keys": true,

@@ -1,8 +1,8 @@
 [Settings]
-gtk-theme-name=%%gui.gtk%%
-gtk-icon-theme-name=%%gui.icon%%
-gtk-cursor-theme-name=%%gui.cursor%%
-gtk-font-name=%%gui.fontface1%% %%gui.fontsize1%%
+gtk-theme-name=%%gtktheme%%
+gtk-icon-theme-name=%%icontheme%%
+gtk-cursor-theme-name=%%cursortheme%%
+gtk-font-name=%%fontface1%% %%fontsize1%%
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
 gtk-button-images=1
@@ -14,3 +14,4 @@ gtk-xft-hinting=1
 gtk-xft-hintstyle=hintmedium
 gtk-xft-rgba=rgb
 gtk-cursor-theme-size=0
+gtk-key-theme-name=Vi

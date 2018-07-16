@@ -1,4 +1,3 @@
-
 # The content of this file is sourced by mondo.
 # The syntax is bash. But it is not recommended to
 # add any script functions other then variable declaration
@@ -8,15 +7,9 @@
 # when files are generated.
 ext="tmTheme"
 
-# The default format is "hex". If format is set to
-# rgb, colors will be translated to RGB format.
-# Example: #FF00FF -> 255,255,255
-format="hex"
-
 # target can be an (absolute) file path to where
 # the file will be copied when a theme is applied.
 
-# target="$HOME/.config/sublime-text-3/Packages/User/Color Highlighter/themes/solarized-dark.tmTheme"
+target="~/.config/sublime-text-3/Packages/User/mondo.tmTheme"
 
-themes_dir="$HOME/.config/sublime-text-3/Packages/User/Color Highlighter/themes"
-twoface_file="$HOME/.config/sublime-text-3/Packages/User/TwoFace.sublime-settings"
+# syntax:bash

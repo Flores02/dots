@@ -8,12 +8,9 @@
 # when files are generated.
 ext=""
 
-# The default format is "hex". If format is set to
-# rgb, colors will be translated to RGB format.
-# Example: #FF00FF -> 255,255,255
-format="hex"
-
 # target can be an (absolute) file path to where
 # the file will be copied when a theme is applied.
 
-target="/home/bud/.icons/default/index.theme"
+target="~/.icons/default/index.theme"
+
+# syntax:bash

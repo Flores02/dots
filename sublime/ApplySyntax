@@ -217,27 +217,7 @@
 
   "syntaxes": 
   [
-    {
-      "syntax": "SimpleSyntax/ssSemi",
-      "rules": [{"contains": "syntax:ssSemi"} ]
-    },
-    {
-      "syntax": "SimpleSyntax/ssExcla",
-      "rules": [{"contains": "syntax:ssExcla"} ]
-    },
-    {
-      "syntax": "SimpleSyntax/ssHash",
-      "rules": [{"contains": "syntax:ssHash"} ]
-    },
-    {
-      "syntax": "SimpleSyntax/ssDslash",
-      "rules": [{"contains": "syntax:ssDslash"} ]
-    },
-    {
-      "syntax": "SimpleSyntax/ssDquote",
-      "rules": [{"contains": "syntax:ssDquote"} ]
-    },
-    {
+     {
       "syntax": "ShellScript/Bash",
       "extensions": ["bash"],
       "rules": [
@@ -249,10 +229,39 @@
         // {"interpreter": "zsh"}
       ]
     },
+    {
+      "syntax": "SimpleSyntax/ssSemi",
+      "rules": [{"contains": "syntax:ssSemi"} ]
+    },
+    {
+      "syntax": "SimpleSyntax/ssExcla",
+      "rules": [{"contains": "syntax:ssExcla"} ]
+    },
+    {
+      "syntax": "SimpleSyntax/ssHash",
+      "match": "all",
+      "rules": [
+        {"first_line": "^(?!#\\!).*$"},
+        {"contains": "syntax:ssHash"},
+      ]
+    },
+    {
+      "syntax": "SimpleSyntax/ssDslash",
+      "rules": [{"contains": "syntax:ssDslash"} ]
+    },
+    {
+      "syntax": "SimpleSyntax/ssDquote",
+      "rules": [{"contains": "syntax:ssDquote"} ]
+    },
+   
 
     {
       "syntax": "Lua/Lua",
       "rules": [{"contains": "syntax=lua"} ]
+    },
+    {
+      "syntax": "HTML/HTML",
+      "extensions": ["cshtml"]
     },
   ]
 }

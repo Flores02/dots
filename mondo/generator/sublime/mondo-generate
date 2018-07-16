@@ -11,22 +11,22 @@
 # If this script is not needed, this file can safely be removed.
 # (removing the file, will improve executioni speed)
 
-this_dir="${1%/*}"
-this_file="${1##*/}"
-this_theme="${this_file%.*}"
+# this_dir="${1%/*}"
+# this_file="${1##*/}"
+# this_theme="${this_file%.*}"
 
-# To source the settings file one could use this:
-source "${this_dir}/mondo-settings"
+# # To source the settings file one could use this:
+# source "${this_dir}/mondo-settings"
 
-mv -f "$1" "$themes_dir"
-ln "$themes_dir/$this_file" "$1" 
+# mv -f "$1" "$themes_dir"
+# ln "$themes_dir/$this_file" "$1" 
 
-cat "$twoface_file" | head -n -1 > /tmp/sublt
-echo "
-  \"$this_theme\": {
-    \"color_scheme\": \"Packages/User/Color Highlighter/themes/$this_file\"
-  },
-}" >> /tmp/sublt
+# cat "$twoface_file" | head -n -1 > /tmp/sublt
+# echo "
+#   \"$this_theme\": {
+#     \"color_scheme\": \"Packages/User/Color Highlighter/themes/$this_file\"
+#   },
+# }" >> /tmp/sublt
 
-mv -f /tmp/sublt "${twoface_file}"
+# mv -f /tmp/sublt "${twoface_file}"
 

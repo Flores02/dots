@@ -3,37 +3,45 @@
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
 udiskie &
-# sudo systemctl e netctl-auto@wlo1-Tele2Internet-e197.service
 
 xset -b b off
+eval "$(ssh-agent -s)"
 
-xrandr --output LVDS1 --auto --primary
+case "$XLAYOUT" in
+  mobile ) xrandr --output LVDS-1 --auto --primary ;;
+  vind   ) xrandr --output VGA-1 --auto --primary --right-of LVDS-1 ;;  
+esac
 
-hsetroot -tile /home/bud/etc/bitmap-walls/patterns-png/line_diag3_2.png \
-  -tint "$(xrdb -query | awk '/colors.act1/ {print $2}')"
+i3merge
 
-setxkbmap -layout seba -option lv3:ralt_switch -option 'caps:ctrl_modifier'
-xcape -e 'Caps_Lock=Escape'
+twp -a mondo.act1 ~/pix/wp/tiles/cde/Convex.png
+
+redshift \
+  -l 59.328634:14.536414 \
+  -t 5500:3700 -g 0.9 -m randr -v \
+  > /dev/null 2>&1 &
+
 numlockx off > /dev/null 2>&1
-# xinput set-prop 17 139 0
 
+thunar --daemon &
 urxvtd -q -o -f
+dunst > /dev/null 2>&1 &
 # dropbox start &
 compton -b > /dev/null 2>&1
-thunar --daemon &
-dunst > /dev/null 2>&1 &
+# flashfocus -s -t 175 -o 0.92 -e 1 > /dev/null 2>&1 &
 
 pidof qbittorrent && killall qbittorrent
 
-flashfocus -s -t 175 -o 0.92 -e 1 > /dev/null 2>&1 &
-sxhkd > /dev/null 2>&1 &
+seba
 
-xbanish &
+export PENTADACTYL_INIT=":source ~/.config/pentadactyl/init.penta"
 
+# export QT_QPA_PLATFORMTHEME=gtk2
 export QT_QPA_PLATFORMTHEME=qt5ct
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
 . $HOME/.i3env
+# exec stumpwm
 exec i3
 
 # syntax:ssHash

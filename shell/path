@@ -1,6 +1,20 @@
 #! /bin/bash
 
 PATH="$HOME/.local/bin:$PATH"
+PATH="$HOME/scripts:$PATH"
 PATH="$HOME/src/bash:$PATH"
-PATH="$HOME/src/new:$PATH"
+PATH="$HOME/src/bash/budlabs:$PATH"
+PATH="$HOME/src/bash/new:$PATH"
+PATH="$HOME/src/bash/misc:$PATH"
+PATH="$HOME/src/bash/i3ass:$PATH"
+PATH="$HOME/src/bash/i3add:$PATH"
+PATH="$HOME/src/bash/i3misc:$PATH"
+PATH="$HOME/src/bash/mondo:$PATH"
+PATH="$HOME/src/bash/polybar:$PATH"
+PATH="$HOME/src/bash/rofi:$PATH"
+PATH="$HOME/src/bash/sublime:$PATH"
+PATH="$HOME/src/bash/thunar:$PATH"
 PATH="$HOME/src/others:$PATH"
+PATH="$PATH:/opt/mssql-tools/bin"
+PATH="$PATH:$HOME/.dotnet/tools"
+

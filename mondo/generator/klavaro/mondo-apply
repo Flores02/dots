@@ -16,7 +16,8 @@ this_dir="${1%/*}"
 # this_theme="${this_file%.*}"
 
 # To source the settings file one could use this:
-source "${this_dir}/mondo-settings"
+source "${this_dir}/_mondo-settings"
 
-cat "$this_dir/base" >> "$target"
+target="${target/'~'/$HOME}"
+cat "$target" "${target%/*}/settings" > "${target%/*}/preferences.ini"
 

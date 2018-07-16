@@ -6,16 +6,13 @@
 
 # If ext is set, it will be appended as an extension
 # when files are generated.
-ext=""
-
-# The default format is "hex". If format is set to
-# rgb, colors will be translated to RGB format.
-# Example: #FF00FF -> 255,255,255
-format="hex"
+# ext=""
 
 # target can be an (absolute) file path to where
 # the file will be copied when a theme is applied.
 
 # target="/home/bud/box/Dropbox/etc/numix-solarized-gtk-theme/mondo.colors"
 
-orgfile="/home/bud/box/Dropbox/etc/numix-solarized-gtk-theme/mondo.colors"
+orgfile="~/box/Dropbox/etc/numix-solarized-gtk-theme/mondo.colors"
+
+# syntax:bash

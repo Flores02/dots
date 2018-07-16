@@ -10,16 +10,15 @@
 # For instance one might want to reload certain processes
 # like windowmanagers and statusbars. 
 
+# restart i3 
+i3-msg -q reload
+
+# resatr all polybars
+polybar-msg cmd restart
+
 # reload urxvt
-kill -1 $(pidof urxvtd)
+kill -1 "$(pidof urxvtd)"
 
 # reload gtk
 gtkrc-reload
 
-# restart i3
-i3-msg reload
-
-# reload polybar
-echo cmd:restart > /tmp/polybar_mqueue.*
-# pbr
-# polybar-msg cmd restart

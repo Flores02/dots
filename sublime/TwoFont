@@ -3,7 +3,7 @@
   "font1": {
     "font_face": "Hack",
     "font_size": 18,
-    "font_options": ["no_bold", "no_italic", "subpixel_antialias"]
+    "font_options": ["subpixel_antialias"]
   },
 
   "font2": {

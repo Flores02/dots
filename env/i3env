@@ -45,7 +45,7 @@ export I3WSWP_COMMAND_3
 export SUBLIME_INSTANCE='sublime_main'
 export NOTES_INSTANCE='sublime_notes'
 
-export SUBLIME_PROJECTS_DIR="$HOME/etc/subpro"
+export SUBLIME_PROJECTS_DIR="$HOME/.config/sublime-text-3/Packages/User/Projects"
 
 export SUBLIME_PROJECT="$SUBLIME_PROJECTS_DIR/kjell/kjell.sublime-project"
 export NOTES_PROJECT="$SUBLIME_PROJECTS_DIR/notes/notes.sublime-project"

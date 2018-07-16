@@ -1,4 +1,4 @@
-TRGFLD="$HOME/src/new"
+TRGFLD="$HOME/src/bash/new"
 
 mkdir -p "$TRGFLD"
 
@@ -12,7 +12,7 @@ awk -v name="$CURFIL" -v today=$(date +%Y-%m-%d) -F'=' \
    }' \
   $CURFLD/template >> $TRGFLD/$CURFIL
 chmod +x $TRGFLD/$CURFIL
-subpro bash
+subpro kjell
 subl $TRGFLD/$CURFIL
 
 # syntax:bash
