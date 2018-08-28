@@ -1,6 +1,7 @@
 # add last command to logbook . find link linux bbq
 function lb() { fc -lnr -1 >> $HOME/.bash/logbook ;}
 
+guuid() { cat /proc/sys/kernel/random/uuid ;}
 # prints newest file in dir
 function lat() { ls -t | head -1 ;}
 

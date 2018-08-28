@@ -1,0 +1,12 @@
+; >> colors
+[colors]
+background = #A2C9CE
+foreground = #F8F8F8
+accent = #394440
+alert = #CBDBDE
+
+; >> settings
+[bar/example]
+font-0 = FixedFixedsys:style=Regular:size=12:antialias=false;2
+
+; syntax:ssSemi

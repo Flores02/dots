@@ -42,6 +42,9 @@ export I3WSWP_COMMAND_1
 export I3WSWP_COMMAND_2
 export I3WSWP_COMMAND_3
 
+export SUBLIME_TITS_CRIT='i'
+export SUBLIME_TITS_SRCH='sublime_main'
+
 export SUBLIME_INSTANCE='sublime_main'
 export NOTES_INSTANCE='sublime_notes'
 

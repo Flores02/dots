@@ -1,4 +1,3 @@
- 
 The X-files, variables are set defined by [mondo](https://budrich.github.io/mondo) in [mondo/mondo-theme](https://budrich.github.io/dots/mondo/mondo-theme).  
 
 By setting `Xcursor.theme` in `~/.Xresources` I ensure to have the right mouse cursor theme in terminal applications.  

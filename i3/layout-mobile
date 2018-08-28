@@ -1,0 +1,17 @@
+# >> layout
+
+# default layout:
+set $layout 'AB=-320 BD=220 AC=130'
+
+# layout manipulation bindings:
+$super+p          $exe i3fyra -l $layout
+$super+Shift+p    $exe i3fyra -l 'AB=800 BD=450'
+$super+Control+p  $exe i3fyra -l 'AB=-568 BD=347'
+$super+g          layout toggle tabbed splith "splitv"
+
+workspace 1 output LVDS-1
+
+# autoload layout:
+$exe i3fyra -l $layout
+
+# syntax:ssHash

@@ -1,0 +1,326 @@
+# i3config - curated by budRich since 2016
+# ========================================
+
+# >> initializatione
+  
+set $left   h
+set $down   j
+set $up     k
+set $right  l
+
+set $exe exec --no-startup-id exec
+set $super bindsym Mod4
+set $alt Mod1
+
+set $bigsize   20
+set $megasize  50
+set $smallsize 5
+
+
+# >> panic
+
+$super+Control+r        $exe i3reload
+$super+$alt+r           $exe i3fyra -m u
+$super+Control+Escape   $exe i3off -x
+$super+x                $exe budlock -l misfitta.png
+$super+semicolon        $exe refocus
+
+# >> misc
+
+$super+u $exe dtest
+
+# >> terminal
+
+$super+Return           $exe i3term -u cornerterm
+$super+Shift+Return     $exe i3term -u termsmall
+$super+Control+Return   $exe urxvtc -name tiledterm
+$super+$alt+Return      $exe i3term -r '-s' -u floatterm
+
+# >> sublime
+
+$super+s                $exe i3run -i sublime_main -e 'sublaunch -p main'
+$super+Shift+s          $exe i3run -i sublime_notes -e 'sublaunch -p notes'
+$super+$alt+s           $exe i3run -i sublime_tmp -e 'ublaunch -p tmp'
+
+#$super+s $exe sublaunch -p main
+#$super+Shift+s $exe sublaunch -p i3
+
+$super+Control+s        $exe sublaction
+
+#for_window [instance = sublime_main] title_format "Main Sublime Window", focus; exec --no-startup-id exec i3fyra -m C
+
+#for_window [instance = sublime_i3] title_format "i3 Sublime Window", focus; exec --no-startup-id exec i3fyra -m D
+
+# >> i3run
+
+$super+e         $exe fmd
+$super+Shift+e   $exe fmb
+$super+Control+e $exe gotofolder "$(tits -d -i sublime_main)"
+
+$super+f       $exe browser
+$super+a       $exe i3term irssi
+$super+Shift+q $exe i3run -i tore -x qbittorrent -e qbittorrent
+$super+v       $exe i3run -i klavaro -e 'klavaro'
+
+$super+grave   $exe i3run -i gcolor2 -e 'gcolor2'
+
+$super+m       $exe i3run -c mpv
+$super+n       $exe i3run -c Sxiv
+
+bindsym Control+Shift+Escape $exe i3term htop
+
+# >> barmenu
+
+$super+b $exe polybar-msg cmd toggle
+$super+Shift+b $exe polybar-msg hook pbtitle 7
+
+bindsym $alt+e                 $exe foldermen
+
+bindsym --release F8           $exe templatetator
+bindsym --release Shift+F8     $exe ganon
+bindsym --release Mod4+F1      $exe gethelp
+
+bindsym --release F6           $exe shownote
+$super+i                       $exe iconfontmenu
+$super+Shift+r                 $exe budrun
+$super+space                   $exe j4-dmenu-desktop --display-binary --no-generic --dmenu='rofi -dmenu -p "exec: "'
+$super+o                       $exe podlist
+$super+y                       $exe keybindingsmenu
+$super+Shift+y                 $exe keybindingsmenu -e
+$super+Control+y               $exe keybindingsmenu -o
+
+# >> media
+
+$super+bracketleft               $exe mediacontrol prev 
+$super+bracketright              $exe mediacontrol next
+
+$super+Shift+braceleft           $exe mediacontrol seek -10
+$super+Control+braceleft         $exe mediacontrol seek -300
+$super+Shift+Control+braceleft   $exe mediacontrol seek -60
+
+$super+Shift+braceright          $exe mediacontrol seek +10
+$super+Control+braceright        $exe mediacontrol seek +300
+$super+Shift+Control+braceright  $exe mediacontrol seek +60
+
+$super+slash                     $exe mediacontrol toggle
+
+$super+apostrophe                $exe mediacontrol vol -2%
+$super+backslash                 $exe mediacontrol vol +2%
+
+$super+Shift+quotedbl            $exe mediacontrol vol mic -2%
+$super+Shift+bar                 $exe mediacontrol vol mic +2%
+
+$super+period                    $exe mediacontrol mute
+$super+Shift+greater             $exe mediacontrol mute mic
+
+$super+Shift+question    $exe i3run -i pavucontrol -e pavucontrol
+
+$super+comma             $exe opswitch
+
+# >> brightness
+
+$super+Shift+underscore   $exe cwm-brightness down
+$super+Shift+plus         $exe cwm-brightness up
+$super+minus              $exe cwm-brightness down
+$super+equal              $exe cwm-brightness up
+
+# >> upload
+
+bindsym --release Mod4+Print $exe i3cast
+bindsym --release Print      $exe shoot
+
+$super+c $exe uploadselection
+
+# >> mouse
+
+# mbutton on titlebar kills
+bindsym --release button2 kill 
+
+# use backbutton as BackSpace
+# bindsym --whole-window button8 $exe dunstify testyur
+bindsym --whole-window button8 $exe xdotool key BackSpace
+
+# >> move/size/focus
+
+$super+Control+$left    $exe i3Kornhe size left
+$super+Control+$down    $exe i3Kornhe size down
+$super+Control+$up      $exe i3Kornhe size up
+$super+Control+$right   $exe i3Kornhe size right
+
+$super+$left            $exe i3Kornhe move left
+$super+$right           $exe i3Kornhe move right
+$super+$down            $exe i3Kornhe move down
+$super+$up              $exe i3Kornhe move up
+
+$super+Shift+$left      $exe i3viswiz left 
+$super+Shift+$right     $exe i3viswiz right
+$super+Shift+$down      $exe i3viswiz down 
+$super+Shift+$up        $exe i3viswiz up 
+
+$super+Tab              $exe i3flip next
+$super+Shift+Tab        $exe i3flip prev
+
+$super+q move left
+$super+w move right
+# >> window managing
+
+$super+F2      $exe i3minimize
+$super+F3      $exe i3monocle
+bindsym F4   kill
+
+$super+z           $exe i3fyra -a
+$super+Shift+z     focus mode_toggle
+
+$super+Control+z   $exe i3zen
+
+# >> wallpaper
+
+# $super+w        $exe budlock -wr 
+$super+Shift+w  $exe budlock -wc blur 
+
+# >> workspace
+
+bindsym $alt+Tab $exe polybar-msg hook pbws 2
+
+$super+1 workspace 1
+$super+2 workspace 2
+$super+3 workspace 3
+
+$super+Shift+1 move container to workspace 1
+$super+Shift+2 move container to workspace 2
+$super+Shift+3 move container to workspace 3
+
+# >> settings
+
+show_marks no
+floating_modifier $alt
+hide_edge_borders both
+focus_follows_mouse no
+workspace_auto_back_and_forth no
+
+# >> appearance
+
+for_window [class="^.*"] border normal 1 
+
+
+# instance|class|title rule
+set $ir for_window [instance =
+set $cr for_window [class =
+set $tr for_window [title =
+
+# tf: titleformat
+set $tf ] title_format
+
+# tc: target container
+set $tc , focus; exec --no-startup-id exec i3fyra -m
+
+# default rule: blank title_format, floating
+$cr "^.*"                $tf " ", floating enable  
+
+# >> rules A
+$ir "tore"               $tf "qbittorrent" $tc A
+$ir "termsmall"          $tf "URxvt"       $tc A
+$ir "htop"               $tf "htop"        $tc A
+$ir "newsboat"           $tf "newsboat"    $tc A
+
+# >> rules C
+$cr "Vivaldi-main"       $tf "vivaldi"     $tc C
+$cr "Vivaldi-stable"     $tf "vivaldi"     $tc D
+$ir "sublime_main"       $tf "sublime"     $tc C
+$ir "Navigator"          $tf "palemoon"    $tc C
+$ir "milkytracker"       $tf "tracker"     $tc C
+$ir "termbig"            $tf "URxvt"       $tc C
+$ir "calibre-gui"        $tf "calibre"     $tc C
+$ir "code"               $tf "VScode"      $tc C
+$ir "AvalonStudio"       $tf "Avalon"      $tc C
+$ir "Eclipse"            $tf "Eclipse"     $tc C
+$ir "sam"                $tf "sam"         $tc C
+
+$tr "^conky \(6570b\)$"     $tf "desktop"  $tc C
+$tr "^Klavaro - Fluidness$" $tf "klavaro"  $tc C
+$tr "^Klavaro - Velocity$"  $tf "klavaro"  $tc C
+
+# >> rules B
+$ir "sublime_tmp"        $tf "tmp"         $tc B
+$cr "mpv"                $tf "mpv"         $tc B
+$cr "feh"                $tf "feh"         $tc B
+# $cr "Sxiv"               $tf "sxiv"        , fullscreen
+$cr "Sxiv"               $tf "sxiv"        $tc B
+$ir "^filemanager_b$"    $tf "%title"      $tc B
+$ir "ncmpcpp"            $tf "ncmpcpp"     $tc B
+$ir "cmus"               $tf "cmus"        $tc B
+$ir "cornerterm"         $tf "URxvt"       $tc B
+
+$ir "pavucontrol"        $tf "pavucontrol" $tc B; \
+  $exe i3fyra -l 'AB=-565 BD=400'; \
+  $exe i3-msg [instance="pavucontrol"] focus
+
+# >> rules D
+$ir "sublime_notes"      $tf "notes"       $tc D
+$cr "ThunarD"            $tf "%title"      $tc D
+# $ir "^.*gotofolder.*$"   $tf "%title"      $tc D
+$ir "^surf$"             $tf "surf"        $tc D
+$ir "irssi"              $tf "irssi"       $tc D
+
+# letter_spacing Inter-letter spacing in 1024ths of a point.
+# gravity One of 'south', 'east', 'north', 'west', 'auto'.
+# gravity_hint One of 'natural', 'strong', 'line'.
+# ▓ ▒ ░
+$ir "floatterm" $tf "<span letter_spacing='0'>░▒▓█</span> URxvt", resize set 400 px 300 px
+$ir "tiledterm" $tf "URxvt", floating disabled
+
+$tr "^cairo-dock-dialog$"] border pixel 0
+
+$tr "^Klavaro - Main Menu$"] move absolute position center
+
+for_window [window_TYPE="dialog"]    floating enable
+for_window [window_TYPE="splash"]    floating enable
+for_window [window_TYPE="utility"]   floating enable
+
+# >> autoexec
+
+$exe pbr
+# $exe urxvtc -name lets-install -e /home/bud/git/bud/lets/lets-install/install.sh
+# $exe /home/bud/git/bud/lets/lets-install/install.sh
+  
+# >> modes
+
+mode "sizemode" {
+  bindsym $left           $exe i3Kornhe -p $bigsize left
+  bindsym $down           $exe i3Kornhe -p $bigsize down
+  bindsym $up             $exe i3Kornhe -p $bigsize up
+  bindsym $right          $exe i3Kornhe -p $bigsize right
+  
+  bindsym Shift+$left     $exe i3Kornhe -p $smallsize left
+  bindsym Shift+$down     $exe i3Kornhe -p $smallsize down
+  bindsym Shift+$up       $exe i3Kornhe -p $smallsize up
+  bindsym Shift+$right    $exe i3Kornhe -p $smallsize right
+
+  bindsym Control+$left   $exe i3Kornhe -p $megasize left
+  bindsym Control+$down   $exe i3Kornhe -p $megasize down
+  bindsym Control+$up     $exe i3Kornhe -p $megasize up
+  bindsym Control+$right  $exe i3Kornhe -p $megasize right
+
+  $super+Control+$left    $exe i3Kornhe size left
+  $super+Control+$down    $exe i3Kornhe size down
+  $super+Control+$up      $exe i3Kornhe size up
+  $super+Control+$right   $exe i3Kornhe size right
+
+  bindsym m $exe i3Kornhe move -p 0 left
+
+  bindsym 1 $exe i3Kornhe 1
+  bindsym 2 $exe i3Kornhe 2
+  bindsym 3 $exe i3Kornhe 3
+  bindsym 4 $exe i3Kornhe 4
+  bindsym 5 $exe i3Kornhe 5
+  bindsym 6 $exe i3Kornhe 6
+  bindsym 7 $exe i3Kornhe 7
+  bindsym 8 $exe i3Kornhe 8
+  bindsym 9 $exe i3Kornhe 9
+
+  bindsym q $exe i3Kornhe x
+  bindsym Return $exe i3Kornhe x
+  bindsym Escape $exe i3Kornhe x
+}
+
+# syntax:ssHash

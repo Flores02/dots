@@ -1,0 +1,11 @@
+# widow Colors           border     bg        text       indic
+client.focused           #A2C9CE    #A2C9CE   #F8F8F8    #A2C9CE
+client.focused_inactive  #CDD4D5    #CDD4D5   #999292    #CDD4D5
+client.unfocused         #CDD4D5    #CDD4D5   #999292    #CDD4D5
+client.urgent            #CBDBDE    #CBDBDE   #F8F8F8    #CBDBDE
+
+client.background        #F8F8F8
+
+font pango:FixedFixedsys 12
+
+# syntax:ssHash
