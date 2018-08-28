@@ -1,7 +1,0 @@
-* {
-act1: %%activebg%%;
-act2: %%activefg%%;
-act3: %%activehl%%;
-font1: "%%fontface1%% %%fontsize1%%";
-}
-
